@@ -1,0 +1,201 @@
+doctype transitional
+
+html(lang = "ru")
+
+    head
+
+        meta(charset = "utf-8")
+
+        title Лоббидо Лот
+
+        link(type = "text/css", rel = "stylesheet", href = "css/styles.css")
+
+    body
+        header(class = "main-header")
+            div(class = "main-header__top-wrapper")
+                div(class = "main-header__wrapper")
+                    img(src = "img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                    section(class = "main-header__user-block user-block")
+                        a(class = "user-block__ad" href = "#") Добавить объявление
+                        p(class = "user-block__login") #[a(href = "#") Войдите] или #[a(href = "#") Зарегистрируйтесь]
+            div(class = "main-header__middle-wrapper")
+                h1(class = "main-header__title") Крупнейшая доска бесплатных объявлений
+                nav(class = "main-header__navigation navigation")
+                    section(class = "navigation__search")
+                        p Поиск в регионе: #[a(href = "#") Все регионы]
+                    ul(class = "navigation__list")
+                        li(class = "navigation__item navigation__item--current")
+                            a(href = "#") Объявления
+                        li(class = "navigation__item")
+                            a(href = "#") Магазины
+                        li(class = "navigation__item")
+                            a(href = "#") Услуги
+                        li(class = "navigation__item")
+                            a(href = "#") Блог
+                        li(class = "navigation__item")
+                            a(href = "#") Помощь
+                section(class = "main-header__search")
+                    form
+                        input(class = "main-header__input-search", type = "text", id = "headerSearch")
+                        button(class = "main-header__search-button", type = "submit") Найти
+                section(class = "main-header__types types")
+                    ul(class = "types__list")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-real-estate.svg", width = "38", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-transport.svg", width = "40", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-jobs.svg", width = "40", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-business.svg", width = "37", height = "36")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-services.svg", width = "40", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-electronics.svg", width = "39", height = "38")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-instruments.svg", width = "40", height = "39")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-pets.svg", width = "40", height = "34")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-home.svg", width = "40", height = "31")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-fashion.svg", width = "40", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-stroller.svg", width = "37", height = "40")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-antiques.svg", width = "40", height = "33")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-sport.svg", width = "38", height = "41")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-hand-made.svg", width = "34", height = "41")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-teaching.svg", width = "41", height = "38")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-what-on.svg", width = "35", height = "37")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-community.svg", width = "40", height = "26")
+                        li(class = "types__item")
+                            a(href = "#", class = "types__link")
+                                img(class = "types__image", src = "img/icons/icon-free.svg", width = "40", height = "40")
+        main(class = "single-card")
+            div(class = "single-card__top-wrapper")
+                section(class = "single-card__top")
+                    div(class = "single-card__heading")
+                        h2(class = "single-card__title") Продам псину
+                        p #[span(class = "single-card__location") Москва] | Добавлено: #[span(class = "single-card__date") 12 января 2018], номер: #[span(class = "single-card__number") 2]
+                    div(class = "single-card__type")
+                        p Животные/Собаки
+                    div(class = "single-card__price")
+                        h3 12 390 RUB
+                section(class = "single-card__middle")
+                    div(class = "single-card__big-preview")
+                        img(src = "img/big-preview.png", width = "777", height = "517")
+                    div(class = "single-card__small-preview")
+                        ul(class = "single-card__preview-list")
+                            li(class = "single-card__preview-item")
+                                img(src = "img/small-preview.png", width = "114", height = "75")
+                            li(class = "single-card__preview-item")
+                                img(src = "img/small-preview.png", width = "114", height = "75")
+                            li(class = "single-card__preview-item")
+                                img(src = "img/small-preview.png", width = "114", height = "75")
+                            li(class = "single-card__preview-item single-card__preview-item--video")
+                                img(src = "img/small-preview.png", width = "114", height = "75")
+                            li(class = "single-card__preview-item single-card__preview-item--video")
+                                img(src = "img/small-preview.png", width = "114", height = "75")
+                    div(class = "single-card__info")
+                        section(class = "single-card__user")
+                            img(class = "single-card__photo", src = "img/user-photo.png", width = "93", height = "93")
+                            h3(class = "single-card__name") Aleksandr.E
+                            p(class = "single-card__user-type") Частное лицо
+                            div(class = "single-card__rating")
+                                img(src = "img/star-rating.png", width = "20", height = "19")
+                                img(src = "img/star-rating.png", width = "20", height = "19")
+                                img(src = "img/star-rating.png", width = "20", height = "19")
+                                img(src = "img/star-rating.png", width = "20", height = "19")
+                                img(src = "img/star-rating.png", width = "20", height = "19")
+                                p Оценок: #[span(class = "single-card__review-count") 16]
+                            p(class = "single-card__user-age") На сайте с 9 января 2018
+                            button(class = "single-card__phone") Показать номер
+                            a(href = "#", class = "single-card__user-all") Все объявления автора
+                        button(class = "single-card__promote") Продвинуть объявление
+                        section(class = "single-card__user-block")
+                            p(class = "single-card__user-friend") Поделиться с другом
+                            ul(class = "single-card__social")
+                                li
+                                    img(src = "img/icons/icon-ok.png", width = "27", height = "28")
+                                li
+                                    img(src = "img/icons/icon-vk.png", width = "27", height = "28")
+                                li
+                                    img(src = "img/icons/icon-facebook.png", width = "27", height = "28")
+                        section(class = "single-card__statistic")
+                            a(href = "#", class = "single-card__print") Распечатать
+                            p(class = "single-card__views") Просмотров: #[span(class = "single-card__views-count") 1275]
+                            a(href = "#", class = "single-card__statistic-link") Статистика
+                            p(class = "single-card__today-views") За сегодня: #[span(class = "single-card__today-views-count") 14]
+        section(class = "card-properties")
+            div(class = "card-properties__wrapper")
+                ul(class = "card-properties__list")
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Размер собаки
+                        p(class = "card-properties__info") Мелкая
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Цвет собаки
+                        p(class = "card-properties__info") Серо буро коричнего фиолетовый
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Привод
+                        p(class = "card-properties__info") Передний
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Состояние
+                        p(class = "card-properties__info") С пробегом
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Тип КПП
+                        p(class = "card-properties__info") Автомат
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Состояние
+                        p(class = "card-properties__info") С пробегом
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Тип КПП
+                        p(class = "card-properties__info") Автомат
+                ul(class = "card-properties__list")
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Размер собаки
+                        p(class = "card-properties__info") Мелкая
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Цвет собаки
+                        p(class = "card-properties__info") Серо буро коричнего фиолетовый
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Привод
+                        p(class = "card-properties__info") Передний
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Состояние
+                        p(class = "card-properties__info") С пробегом
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Тип КПП
+                        p(class = "card-properties__info") Автомат
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Состояние
+                        p(class = "card-properties__info") С пробегом
+                    li(class = "card-properties__item")
+                        p(class = "card-properties__head") Тип КПП
+                        p(class = "card-properties__info") Автомат
+        section(class = "card-info")
+            div(class = "card-info__wrapper")
+                p(class = "card-info__content") Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+

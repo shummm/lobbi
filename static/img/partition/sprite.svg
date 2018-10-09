@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="animals" viewBox="0 0 100.9 84.7">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<ellipse class="st0" cx="13.3" cy="40.7" rx="11.5" ry="15.3"/>
+<ellipse class="st0" cx="34.5" cy="17" rx="11.5" ry="15.3"/>
+<path class="st0" d="M50.6,76c-8.4,0-29.1,15.8-29.1-0.3s13-33.4,29.1-33.4s29.1,17.4,29.1,33.4S59,76,50.6,76z"/>
+<ellipse class="st0" cx="64.6" cy="17" rx="11.5" ry="15.3"/>
+<ellipse class="st0" cx="87.6" cy="40.7" rx="11.5" ry="15.3"/>
+</symbol><symbol id="antiques" viewBox="0 0 101.5 80.9">
+<style type="text/css">
+	.st0{display:none;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="50.6" cy="56.4" r="4.7"/>
+<circle class="st1" cx="50.8" cy="24.8" r="17.4"/>
+<circle class="st1" cx="50.8" cy="24.8" r="23"/>
+<circle class="st1" cx="50.8" cy="56.4" r="8.6"/>
+<path d="M50.7,11.3L50.7,11.3c-0.6,0-1-0.8-1-1.7V9.1c0-1,0.5-1.7,1-1.7l0,0c0.6,0,1,0.8,1,1.7v0.4C51.7,10.5,51.3,11.3,50.7,11.3z"/>
+<path d="M50.7,42.1L50.7,42.1c-0.6,0-1-0.8-1-1.8v-0.4c0-1,0.5-1.7,1-1.7l0,0c0.6,0,1,0.8,1,1.7v0.4C51.7,41.3,51.3,42.1,50.7,42.1z
+	"/>
+<path d="M37.4,24.4L37.4,24.4c0,0.6-0.8,1.1-1.8,1.1h-0.4c-1,0-1.8-0.5-1.8-1l0,0c0-0.6,0.8-1,1.8-1h0.4
+	C36.6,23.4,37.4,23.9,37.4,24.4z"/>
+<path d="M68,24.8L68,24.8c0,0.6-0.8,1-1.8,1h-0.4c-1,0-1.8-0.5-1.8-1l0,0c0-0.6,0.8-1,1.8-1h0.4C67.2,23.8,68,24.3,68,24.8z"/>
+<path d="M50.7,15.9L50.7,15.9c0.6,0,1,0.8,1,1.7v6.5c0,1-0.4,1.7-1,1.7l0,0c-0.6,0-1-0.8-1-1.7v-6.5C49.8,16.7,50.2,15.9,50.7,15.9z
+	"/>
+<path d="M50.4,24.8L50.4,24.8c0.4-0.4,1.3-0.1,1.9,0.5l4.6,4.6c0.7,0.7,0.9,1.5,0.5,1.9l0,0c-0.4,0.4-1.3,0.1-1.9-0.5l-4.6-4.6
+	C50.3,26,50,25.1,50.4,24.8z"/>
+<path class="st2" d="M5.8,59.4c0.6,4.5,5.7,6.2,10.9,5.3c4.9-0.9,8.9-4.3,11.2-8.7c8.5-16.3-3.6-30.4-3.6-30.4"/>
+<path class="st2" d="M95.5,59.4c-0.6,4.5-5.7,6.2-10.9,5.3c-4.9-0.9-8.9-4.3-11.2-8.7C64.9,39.7,77,25.6,77,25.6"/>
+<path class="st1" d="M98.2,74.4H2.3c-0.7,0-0.3-0.7,0-1.4l3.2-7.3c0.2-0.4,0.5-0.6,0.9-0.6h88.8c0.4,0,0.8,0.2,0.9,0.6l3,7.3
+	C99.4,73.6,98.9,74.4,98.2,74.4z"/>
+<path class="st1" d="M2.7,79.1h14.6c0.6,0,1-0.4,1-1v-2.8c0-0.6-0.4-1-1-1H2.7c-0.6,0-1,0.4-1,1v2.8C1.7,78.7,2.2,79.1,2.7,79.1z"/>
+<path class="st1" d="M84.2,79.1h14.6c0.6,0,1-0.4,1-1v-2.8c0-0.6-0.4-1-1-1H84.2c-0.6,0-1,0.4-1,1v2.8
+	C83.2,78.7,83.6,79.1,84.2,79.1z"/>
+</symbol><symbol id="business" viewBox="0 0 93.5 91.4">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M27.2,43.8H4.7c-1.7,0-3-1.3-3-3v-20c0-1.7,1.3-3,3-3h84c1.7,0,3,1.3,3,3v20c0,1.7-1.3,3-3,3h-2.5"/>
+<rect x="30.7" y="8.8" class="st1" width="32" height="9"/>
+<path class="st1" d="M63.7,8.8h-34c-1.7,0-3-1.3-3-3v-1c0-1.7,1.3-3,3-3h34c1.7,0,3,1.3,3,3v1C66.7,7.4,65.4,8.8,63.7,8.8z"/>
+<path class="st1" d="M56.7,48.8h-20c-1.7,0-3-1.3-3-3v-3c0-1.7,1.3-3,3-3h20c1.7,0,3,1.3,3,3v3C59.7,47.4,58.4,48.8,56.7,48.8z"/>
+<path class="st0" d="M47.7,88.8h-36c-1.7,0-3-1.3-3-3v-42"/>
+<line class="st0" x1="86.7" y1="43.8" x2="86.7" y2="54.4"/>
+<path class="st2" d="M55.7,89.6V68.9c0-5.6,4.5-10.1,10.1-10.1h13.8c5.6,0,10.1,4.5,10.1,10.1v20.8"/>
+<line class="st2" x1="63.7" y1="89.6" x2="63.7" y2="72.8"/>
+<line class="st2" x1="81.7" y1="72.8" x2="81.7" y2="89.6"/>
+<line class="st1" x1="72.7" y1="75.8" x2="72.7" y2="78.8"/>
+<line class="st1" x1="72.7" y1="81.8" x2="72.7" y2="84.8"/>
+<path class="st1" d="M70.9,38h3.7c3.3,0,6,2.7,6,6v3.7c0,3.3-2.7,6-6,6h-3.7c-3.3,0-6-2.7-6-6V44C64.9,40.7,67.6,38,70.9,38z"/>
+<polygon class="st2" points="72.7,69.3 77.2,58.8 68.2,58.8 "/>
+</symbol><symbol id="childs" viewBox="0 0 91.4 98.5">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M75.4,30.5v5.9c0,13.7-11.1,24.8-24.8,24.8H27.1C13.5,61.1,2.4,50,2.4,36.4v-9.9c0-13.7,11.1-24.8,24.8-24.8
+		h20.3"/>
+	<polyline class="st1" points="2.4,31.4 75.4,31.4 82.9,21.3 89.6,21.3 	"/>
+	<polyline class="st1" points="37.2,1.8 37.2,30.5 47.7,1.8 	"/>
+	<path class="st1" d="M75.2,39.5c0,0-30.1,0-32.8,0s-5.3-2-5.3-8.9"/>
+	<line class="st0" x1="54.2" y1="75" x2="24.3" y2="61"/>
+	<line class="st0" x1="23.7" y1="75" x2="53.6" y2="61"/>
+	<line class="st0" x1="52.3" y1="79.1" x2="24.8" y2="79.1"/>
+	<circle class="st0" cx="14.2" cy="84.3" r="12.5"/>
+	<circle class="st0" cx="14.2" cy="84.2" r="6.8"/>
+	<circle class="st0" cx="63.4" cy="84.3" r="12.5"/>
+	<circle class="st0" cx="63.4" cy="84.2" r="6.8"/>
+</g>
+</symbol><symbol id="community" viewBox="0 0 99.8 64.3">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M30,62.5V38.1c0-6.6,5.3-11.9,11.9-11.9h16.2c6.6,0,11.9,5.3,11.9,11.9v24.4"/>
+	<line class="st0" x1="39.4" y1="62.5" x2="39.4" y2="42.7"/>
+	<line class="st0" x1="60.6" y1="42.7" x2="60.6" y2="62.5"/>
+	<line class="st1" x1="50" y1="46.2" x2="50" y2="49.7"/>
+	<line class="st1" x1="50" y1="53.2" x2="50" y2="56.8"/>
+	<path class="st1" d="M46.7,1.8h6.5c3.3,0,6,2.7,6,6v6.5c0,3.3-2.7,6-6,6h-6.5c-3.3,0-6-2.7-6-6V7.8C40.7,4.4,43.4,1.8,46.7,1.8z"/>
+	<polygon class="st0" points="50,38.5 55.3,26.2 44.7,26.2 	"/>
+</g>
+<g>
+	<path class="st0" d="M1.7,62.5V41.6C1.7,35,7,29.7,13.6,29.7h16.2c0.8,0,1.6,0.1,2.4,0.2"/>
+	<line class="st0" x1="11.2" y1="62.5" x2="11.2" y2="46.2"/>
+	<line class="st1" x1="21.8" y1="49.7" x2="21.8" y2="53.2"/>
+	<line class="st1" x1="21.8" y1="56.8" x2="21.8" y2="60.3"/>
+	<path class="st1" d="M18.5,5.3H25c3.3,0,6,2.7,6,6v6.5c0,3.3-2.7,6-6,6h-6.5c-3.3,0-6-2.7-6-6v-6.5C12.5,8,15.2,5.3,18.5,5.3z"/>
+	<polygon class="st0" points="21.8,42.1 27,29.7 16.5,29.7 	"/>
+</g>
+<g>
+	<path class="st0" d="M66.9,30.1c1-0.2,2-0.4,3-0.4h16.2C92.7,29.7,98,35,98,41.6v20.9"/>
+	<line class="st0" x1="88.6" y1="46.2" x2="88.6" y2="62.5"/>
+	<line class="st1" x1="78" y1="49.7" x2="78" y2="53.2"/>
+	<line class="st1" x1="78" y1="56.8" x2="78" y2="60.3"/>
+	<path class="st1" d="M74.7,5.3h6.5c3.3,0,6,2.7,6,6v6.5c0,3.3-2.7,6-6,6h-6.5c-3.3,0-6-2.7-6-6v-6.5C68.7,8,71.4,5.3,74.7,5.3z"/>
+	<polygon class="st0" points="78,42.1 83.3,29.7 72.7,29.7 	"/>
+</g>
+</symbol><symbol id="courses" viewBox="0 0 101.6 96.1">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_1_1_" class="st0">
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_2">
+	<path class="st1" d="M9.5,45.4v13.8c0,2.1-1.7,3.9-3.9,3.9l0,0c-2.1,0-3.9-1.7-3.9-3.9V45.4c0,0,0-10.4,3.5-12.7
+		c7.2-4.2,22-2.7,25.2-0.8s5.3,4.4,8,6s5.9,2.4,11.2,1.1c6.1-1.4,7.5,6.1,0.2,7.5c-5.6,1-9.6,0.6-12.7-0.3c-2.3-0.7-4.4-1.4-7.1-4.4
+		c-0.2-0.2-0.4-0.4-0.6-0.5c-0.6-0.4-1.4,0-1.4,0.8l0.2,15.5V90c0,5.6-9.4,5.6-9.4,0V64.8"/>
+	<path class="st2" d="M18.9,64.8v25.4c0,5.6-9.4,5.6-9.4,0V57.8"/>
+	<path class="st3" d="M16.8,4.8c0-1.7,1.4-3,3-3h73.3c1.7,0,3,1.3,3,3v50c0,1.7-1.3,3-3,3H47.3"/>
+	<path class="st1" d="M45,57.8h51.8c1.7,0,3,1.3,3,3v2.5c0,1.7-1.3,3-3,3H34.3"/>
+	<path class="st2" d="M69,23.8L53.8,39c-0.1,0.1-0.3,0.1-0.3,0l0,0c-0.1-0.1-0.1-0.3,0-0.3l15.3-15.3c0.1-0.1,0.3-0.1,0.3,0l0,0
+		C69.1,23.5,69.1,23.7,69,23.8z"/>
+	<line class="st2" x1="18.9" y1="44.8" x2="18.9" y2="47.8"/>
+	<line class="st2" x1="18.9" y1="50.8" x2="18.9" y2="53.8"/>
+	<path class="st2" d="M17,10h3.7c3.3,0,6,2.7,6,6v3.7c0,3.3-2.7,6-6,6H17c-3.3,0-6-2.7-6-6V16C11,12.7,13.7,10,17,10z"/>
+	<polygon class="st3" points="18.9,41.3 23.4,30.8 14.4,30.8 	"/>
+</g>
+</symbol><symbol id="electronics" viewBox="0 0 96.7 95.7">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M1.8,36.8V8.1c0-3.5,2.9-6.4,6.4-6.4h80.5c3.5,0,6.4,2.9,6.4,6.4v41.7"/>
+<line class="st1" x1="81.9" y1="10.5" x2="85.5" y2="14.1"/>
+<line class="st1" x1="85.5" y1="24.3" x2="71.9" y2="10.7"/>
+<line class="st0" x1="47.3" y1="55.8" x2="69.1" y2="55.8"/>
+<line class="st0" x1="47.3" y1="71.8" x2="69.1" y2="71.8"/>
+<circle cx="48.5" cy="63.8" r="1"/>
+<circle cx="85.5" cy="87.8" r="1"/>
+<circle cx="21.3" cy="87.8" r="1"/>
+<line class="st0" x1="46.6" y1="87.8" x2="50.4" y2="87.8"/>
+<path class="st0" d="M56.4,77.6v10.1c0,0,4.5,0,5.3,0c1,0,7.4-0.3,7.4,6.2H46.4"/>
+<path class="st2" d="M37.2,94H5.4c-2,0-3.6-1.6-3.6-3.6V46.8c0-2,1.6-3.6,3.6-3.6h31.9c2,0,3.6,1.6,3.6,3.6v43.5
+	C40.9,92.3,39.2,94,37.2,94z"/>
+<path class="st2" d="M91.3,94h-12c-2,0-3.6-1.6-3.6-3.6v-31c0-2,1.6-3.6,3.6-3.6h12.1c2,0,3.6,1.6,3.6,3.6v30.9
+	C95,92.3,93.4,94,91.3,94z"/>
+</symbol><symbol id="fashion" viewBox="0 0 98.7 99.3">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M49.2,1.7H37.7c0,0-5.4,0.2-8.1,3.9S21,18.7,21,18.7s-0.7,0.8-1.5,1.2c-1.4,0.6-12.6,5.8-12.6,5.8
+		s-5.2,2.4-5.2,6.7c0,3.8,0,58.3,0,58.3S1.3,97.5,9,97.5c8.2,0,40.2,0,40.2,0"/>
+	<path class="st0" d="M49.4,1.7h11.5c0,0,5.4,0.2,8.1,3.9s8.6,13.1,8.6,13.1s0.7,0.8,1.5,1.2c1.4,0.6,12.6,5.8,12.6,5.8
+		s5.2,2.4,5.2,6.7c0,3.8,0,58.3,0,58.3s0.4,6.8-7.3,6.8c-8.2,0-40.2,0-40.2,0"/>
+	<line class="st0" x1="20.5" y1="19.3" x2="20.5" y2="90.7"/>
+	<line class="st0" x1="39.9" y1="45.3" x2="39.9" y2="96.7"/>
+	<line class="st0" x1="58.9" y1="45.3" x2="58.9" y2="96.7"/>
+	<line class="st0" x1="78.1" y1="19.3" x2="78.1" y2="90.7"/>
+	<circle class="st0" cx="49.2" cy="50.8" r="3.3"/>
+	<circle class="st0" cx="49.2" cy="67.2" r="3.3"/>
+	<circle class="st0" cx="49.2" cy="83.7" r="3.3"/>
+	<path class="st0" d="M49.2,25h-6.1c0,0-9.8-4.3-16-3.6v19.5c0,0,8.1-0.1,15.8-3.5h6.5"/>
+	<path class="st0" d="M49.4,25h6.1c0,0,9.8-4.3,16-3.6v19.5c0,0-8.1-0.1-15.8-3.5h-6.5"/>
+	<g>
+		<polyline class="st0" points="33.6,10.5 42.7,18.4 42.7,31.1 42.7,37.4 		"/>
+		<line class="st0" x1="35.9" y1="31.1" x2="42.7" y2="31.1"/>
+	</g>
+	<g>
+		<polyline class="st0" points="64.6,10.5 55.5,18.4 55.5,31.1 55.5,37.4 		"/>
+		<line class="st0" x1="62.3" y1="31.1" x2="55.5" y2="31.1"/>
+	</g>
+</g>
+</symbol><symbol id="freebies" viewBox="0 0 98.9 98.9">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<polygon class="st0" points="85.8,59.2 90.8,73.3 76.1,76.1 73.3,90.8 59.2,85.8 49.5,97.2 39.7,85.8 25.6,90.8 22.9,76.1 8.1,73.3 
+	13.1,59.2 1.7,49.5 13.1,39.7 8.1,25.6 22.9,22.9 25.6,8.1 39.7,13.1 49.5,1.8 59.2,13.1 73.3,8.1 76.1,22.9 90.8,25.6 85.8,39.7 
+	97.2,49.5 "/>
+<g>
+	<path class="st0" d="M40,40.2c0,0,1.5-9.8,10.7-10.8c0.1,0,0.2,0,0.3,0c6.5-0.6,11.2,4.8,10.1,11.2c-0.5,3.1-1.7,5.9-4.3,9
+		c-5.4,6.4-6.7,6.7-7.8,10.3c-0.5,1.6-0.5,5.5-0.5,5.5"/>
+	<line class="st0" x1="48.6" y1="73.3" x2="48.6" y2="72.7"/>
+</g>
+</symbol><symbol id="handmade" viewBox="0 0 83 100.8">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_3">
+	<g>
+		<path class="st0" d="M6.9,55.4l-5-24.3c-0.8-3.8,1.7-7.5,5.4-8.3l0,0c3.8-0.8,7.5,1.7,8.3,5.4l5,24.3"/>
+		<path class="st0" d="M18.7,43.2l-5-24.3c-0.8-3.8,1.7-7.5,5.4-8.3l0,0c3.8-0.8,7.5,1.7,8.3,5.4l6.3,31"/>
+		<path class="st0" d="M31.1,34.5l-5-24.3c-0.8-3.8,1.7-7.5,5.4-8.3l0,0c3.8-0.8,7.5,1.7,8.3,5.4l5,24.3"/>
+		<path class="st0" d="M47.4,44.4l-6.1-29.7c-0.8-3.8,1.7-7.5,5.4-8.3l0,0c3.8-0.8,7.5,1.7,8.3,5.4l8.4,41"/>
+		<path class="st0" d="M77.9,57.2c-3.8,11.2-7.5,36.1-32,41.2l0,0C30,101.7,14.2,91.3,11,75.3l-3.5-17l-0.6-3"/>
+		<path class="st0" d="M63.6,53l4.6-8.9c1.8-3.4,6-4.8,9.4-3l0,0c3.4,1.8,4.5,5.8,3,9.4c-2,5-2.7,6.8-2.7,6.8"/>
+		<path class="st0" d="M57.4,75.6"/>
+	</g>
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_2">
+</g>
+</symbol><symbol id="home" viewBox="0 0 99.4 74.6">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<polyline class="st0" points="77.7,36.3 77.7,72.9 21.6,72.9 21.6,36.3 	"/>
+	<path class="st1" d="M29.2,40.1h20.9c0.6,0,1.2,0.5,1.2,1.2v14.1c0,0.6-0.5,1.2-1.2,1.2H29.2c-0.6,0-1.2-0.5-1.2-1.2V41.3
+		C28,40.6,28.5,40.1,29.2,40.1z"/>
+	<path class="st1" d="M58.4,46.7h11.7c0.4,0,0.8,0.4,0.8,0.8v24.7c0,0.4-0.4,0.8-0.8,0.8H58.4c-0.4,0-0.8-0.4-0.8-0.8V47.5
+		C57.6,47,58,46.7,58.4,46.7z"/>
+	<path class="st1" d="M58.7,1.8h18c0.4,0,0.8,0.4,0.8,0.8V8c0,0.4-0.4,0.8-0.8,0.8h-18c-0.4,0-0.8-0.4-0.8-0.8V2.5
+		C57.9,2.1,58.3,1.8,58.7,1.8z"/>
+	<path class="st2" d="M61.1,15.8V9.5c0-0.4,0.4-0.8,0.8-0.8h11.7c0.4,0,0.8,0.4,0.8,0.8v14.4"/>
+	<line class="st0" x1="26.1" y1="56.6" x2="53.2" y2="56.6"/>
+	<line class="st0" x1="28.1" y1="48.3" x2="51.3" y2="48.3"/>
+	<line class="st0" x1="22.9" y1="66.4" x2="56.5" y2="66.4"/>
+	<line class="st0" x1="71.4" y1="66.4" x2="76.6" y2="66.4"/>
+	<line class="st0" x1="63.6" y1="59.8" x2="66.9" y2="59.8"/>
+	<line class="st0" x1="39.7" y1="56.6" x2="39.7" y2="40.3"/>
+	<polyline class="st0" points="49.3,10.5 16.9,29.8 16.9,38.1 49.3,18.8 	"/>
+	<polyline class="st0" points="49.7,10.5 82,29.8 82,38.1 49.7,18.8 	"/>
+	<polygon class="st0" points="8.4,72.9 1.7,72.9 1.7,56.6 5,51.3 8.4,56.6 	"/>
+	<polygon class="st0" points="15,72.9 8.4,72.9 8.4,56.6 11.7,51.3 15,56.6 	"/>
+	<polygon class="st0" points="21.6,72.9 15,72.9 15,56.6 18.3,51.3 21.6,56.6 	"/>
+	<polygon class="st0" points="84.4,72.9 77.7,72.9 77.7,56.6 81,51.3 84.4,56.6 	"/>
+	<polygon class="st0" points="91,72.9 84.4,72.9 84.4,56.6 87.7,51.3 91,56.6 	"/>
+	<polygon class="st0" points="97.6,72.9 91,72.9 91,56.6 94.3,51.3 97.6,56.6 	"/>
+</g>
+</symbol><symbol id="jobs" viewBox="0 0 100 101.3">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_1_1_" class="st0">
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_2">
+	<path class="st1" d="M27.2,43.7H4.8c-1.7,0-3-1.3-3-3v-20c0-1.7,1.3-3,3-3h84c1.7,0,3,1.3,3,3v20c0,1.7-1.3,3-3,3H66.2"/>
+	<rect x="30.8" y="8.7" class="st2" width="32" height="9"/>
+	<path class="st2" d="M63.8,8.7h-34c-1.7,0-3-1.3-3-3v-1c0-1.7,1.3-3,3-3h34c1.7,0,3,1.3,3,3v1C66.8,7.4,65.4,8.7,63.8,8.7z"/>
+	<path class="st2" d="M56.8,48.7h-20c-1.7,0-3-1.3-3-3v-3c0-1.7,1.3-3,3-3h20c1.7,0,3,1.3,3,3v3C59.8,47.4,58.4,48.7,56.8,48.7z"/>
+	<path class="st1" d="M47.8,88.7h-36c-1.7,0-3-1.3-3-3v-42"/>
+	<line class="st1" x1="86.8" y1="43.7" x2="86.8" y2="54.4"/>
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_3">
+	<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -28.5986 66.3148)" class="st2" cx="65.7" cy="67.7" rx="16" ry="16"/>
+	<path class="st2" d="M94.1,98.9L82,86.8c-0.8-0.8-0.8-2,0-2.8l0.7-0.7c0.8-0.8,2-0.8,2.8,0l12.1,12.1c0.8,0.8,0.8,2,0,2.8l-0.7,0.7
+		C96.2,99.7,94.9,99.7,94.1,98.9z"/>
+	<rect x="78.7" y="78.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -34.1116 80.6025)" class="st2" width="3" height="6"/>
+</g>
+</symbol><symbol id="property" viewBox="0 0 95.4 98.9">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<rect x="73.8" y="19.6" class="st0" width="19.8" height="77.5"/>
+<rect x="34.5" y="47.6" class="st0" width="39.4" height="49.5"/>
+<polygon class="st0" points="34.5,47.6 34.5,57.1 21.4,57.1 21.4,12.7 27.9,12.7 27.9,1.8 47.6,1.8 47.6,12.7 54.2,12.7 54.2,47.6 
+	"/>
+<rect x="21.4" y="64" class="st0" width="13.1" height="33.1"/>
+<rect x="1.7" y="57.1" class="st0" width="32.8" height="40.1"/>
+<rect x="62.3" y="40.9" class="st0" width="6.6" height="6.6"/>
+<rect x="5" y="50.5" class="st0" width="9.8" height="6.6"/>
+<rect x="78.7" y="12.7" class="st0" width="10" height="6.9"/>
+<line class="st0" x1="34.5" y1="7.9" x2="34.5" y2="12.8"/>
+<line class="st0" x1="34.5" y1="19.6" x2="34.5" y2="47.4"/>
+<line class="st0" x1="41" y1="19.6" x2="41" y2="47.4"/>
+<line class="st0" x1="47.6" y1="19.6" x2="47.6" y2="47.4"/>
+<line class="st0" x1="41" y1="53.9" x2="41" y2="95.8"/>
+<line class="st0" x1="47.6" y1="53.9" x2="47.6" y2="95.8"/>
+<line class="st0" x1="54.2" y1="53.9" x2="54.2" y2="95.8"/>
+<line class="st0" x1="60.7" y1="53.9" x2="60.7" y2="95.8"/>
+<line class="st0" x1="67.3" y1="53.9" x2="67.3" y2="95.8"/>
+<line class="st0" x1="27.9" y1="19.6" x2="27.9" y2="55.5"/>
+<line class="st0" x1="41" y1="7.9" x2="41" y2="12.8"/>
+<line class="st0" x1="80.4" y1="25.5" x2="80.4" y2="30.4"/>
+<line class="st0" x1="86.9" y1="25.5" x2="86.9" y2="30.4"/>
+<line class="st0" x1="80.4" y1="35.3" x2="80.4" y2="40.2"/>
+<line class="st0" x1="86.9" y1="35.3" x2="86.9" y2="40.2"/>
+<line class="st0" x1="80.4" y1="45.2" x2="80.4" y2="50.1"/>
+<line class="st0" x1="86.9" y1="45.2" x2="86.9" y2="50.1"/>
+<line class="st0" x1="80.4" y1="55" x2="80.4" y2="59.9"/>
+<line class="st0" x1="86.9" y1="55" x2="86.9" y2="59.9"/>
+<line class="st0" x1="80.4" y1="64.8" x2="80.4" y2="69.7"/>
+<line class="st0" x1="27.9" y1="70.5" x2="32.8" y2="70.5"/>
+<line class="st0" x1="14.8" y1="67.7" x2="14.8" y2="62.8"/>
+<line class="st0" x1="8.3" y1="67.7" x2="8.3" y2="62.8"/>
+<line class="st0" x1="14.8" y1="77.7" x2="14.8" y2="72.8"/>
+<line class="st0" x1="8.3" y1="77.7" x2="8.3" y2="72.8"/>
+<line class="st0" x1="14.8" y1="87.7" x2="14.8" y2="82.8"/>
+<line class="st0" x1="8.3" y1="87.7" x2="8.3" y2="82.8"/>
+<line class="st0" x1="27.9" y1="77.1" x2="32.8" y2="77.1"/>
+<line class="st0" x1="27.9" y1="83.6" x2="32.8" y2="83.6"/>
+<line class="st0" x1="27.9" y1="90.2" x2="32.8" y2="90.2"/>
+<line class="st0" x1="86.9" y1="64.8" x2="86.9" y2="69.7"/>
+<line class="st0" x1="80.4" y1="74.7" x2="80.4" y2="79.5"/>
+<line class="st0" x1="86.9" y1="74.7" x2="86.9" y2="79.5"/>
+<line class="st0" x1="80.4" y1="84.5" x2="80.4" y2="89.4"/>
+<line class="st0" x1="86.9" y1="84.5" x2="86.9" y2="89.4"/>
+</symbol><symbol id="services" viewBox="0 0 100.9 100.9">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M93.6,41.3l-5.9-1c-0.9-3.2-2.2-6.3-3.8-9.2l3.4-4.8c1.8-2.4,2.2-5.7,0-7.9l-2.5-2.5l-2.6-2.6
+	c-2.2-2.2-5.5-1.8-7.9,0l-4.9,3.5c-2.9-1.6-6-2.9-9.2-3.8l-1-5.7c-0.4-3-2.5-5.6-5.6-5.6h-7.2c-3.1,0-5.2,2.6-5.6,5.6l-1,5.8
+	c-3.2,0.9-6.2,2.1-9,3.8l-4.5-3.2c-2.4-1.8-5.7-2.2-7.9,0l-2.6,2.6l-2.5,2.5c-2.2,2.2-1.8,5.5,0,7.9l3.2,4.5c0,0.1-0.1,0.1-0.1,0.1
+	c-1.6,2.8-2.9,5.8-3.8,9c0,0.1,0,0.1,0,0.2l-5.4,0.9c-3,0.4-5.6,2.5-5.6,5.6v7.2c0,3.1,2.6,5.2,5.6,5.6l5.4,0.9
+	c0.9,3.2,2.1,6.3,3.8,9.2c0,0.1,0.1,0.1,0.1,0.1l-3.2,4.5c-1.8,2.4-2.2,5.7,0,7.9l2.5,2.5l2.6,2.6c2.2,2.2,5.5,1.8,7.9,0l4.4-3.2
+	c2.9,1.7,6,3,9.2,3.9l0,0l0.9,5.6c0.4,3,2.5,5.6,5.6,5.6h7.2c3.1,0,5.2-2.6,5.6-5.6l0.9-5.5c3.4-0.9,6.6-2.2,9.6-4l4.8,3.5
+	c2.4,1.8,5.7,2.2,7.9,0L85,85l2.5-2.5c2.2-2.2,1.8-5.5,0-7.9L84,69.7c0-0.1,0.1-0.1,0.1-0.2c1.5-2.7,2.7-5.7,3.6-8.8
+	c0-0.1,0-0.1,0-0.1l5.9-1c3-0.4,5.6-2.5,5.6-5.6v-7.2C99.2,43.8,96.6,41.7,93.6,41.3z"/>
+<g>
+	<path class="st1" d="M35.1,72V53.2c0-5.1,4.1-9.2,9.2-9.2h12.4c5.1,0,9.2,4.1,9.2,9.2V72"/>
+	<line class="st1" x1="42.3" y1="72" x2="42.3" y2="56.7"/>
+	<line class="st1" x1="58.6" y1="56.7" x2="58.6" y2="72"/>
+	<line class="st2" x1="50.5" y1="59.5" x2="50.5" y2="62.2"/>
+	<line class="st2" x1="50.5" y1="64.9" x2="50.5" y2="67.6"/>
+	<path class="st2" d="M49.3,25.3h2.3c3.3,0,6,2.7,6,6v2.3c0,3.3-2.7,6-6,6h-2.3c-3.3,0-6-2.7-6-6v-2.3C43.3,28,46,25.3,49.3,25.3z"/>
+	<polygon class="st1" points="50.5,53.6 54.5,44.1 46.4,44.1 	"/>
+</g>
+</symbol><symbol id="sport" viewBox="0 0 96.2 101.5">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="73.8" cy="11.2" r="9.4"/>
+	<path class="st1" d="M37.3,52.2C35.5,59.8,42,63.4,42,63.4l18.2,10.2l-3.1,20.1c-0.4,2.9,1.6,5.5,4.4,5.9l0,0
+		c2.9,0.4,5.5-1.7,5.9-4.5L70.9,71c0.3-2.3-0.7-3.7-0.7-3.7s-12.9-9.9-15.6-11.9C58,50.3,63.7,43,63.7,43c0.2,0.3,3.8,7.7,5.5,11
+		c0.9,1.8,1.6,2.4,2.9,2.8c1.2,0.4,17.8,0,17.8,0c2.5,0,4.6-2,4.6-4.6l0,0c0-2.5-2-4.6-4.6-4.6H77c0,0-6.2-15-6.6-16.4
+		c0-0.2-0.1-0.3-0.1-0.5c-0.6-1.8-1.9-3.4-3.5-4.6c-3.2-2.3-5.4-3.3-6.4-3.8c-1.2-0.7-12.8-3.3-18-4.5c-4-1.1-4.9,0.7-5.9,1.4
+		l-14.6,11c-2,1.5-2.4,4.4-0.9,6.4l0,0c1.5,2,4.4,2.4,6.4,0.9L39.9,28c0,0,7.3,1.4,9.1,2.3c1.2,0.8,0,2.8,0,2.8s-5.3,9.5-9.1,14.5
+		c-3.2,4.3-2.9,6.3-2.9,6.3l-8.6,14.5H9.8c-2.9,0-5.2,2.3-5.2,5.2l0,0c0,2.9,2.3,5.2,5.2,5.2h23.1c0,0,3.5-0.2,4.5-1.6
+		c4.3-6.2,7.9-11.7,7.9-11.7"/>
+	<path class="st0" d="M63.7,43c0,0,7.5-8.6,5.8-13.8"/>
+</g>
+<line class="st2" x1="1.7" y1="15.1" x2="33.1" y2="15.1"/>
+<line class="st2" x1="3.7" y1="29.1" x2="14.4" y2="29.1"/>
+<line class="st2" x1="3.7" y1="48.8" x2="31.2" y2="48.8"/>
+<line class="st2" x1="33.1" y1="5.6" x2="56.1" y2="5.6"/>
+</symbol><symbol id="things" viewBox="0 0 96.8 101.5">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_2" class="st0">
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_3">
+	<path class="st1" d="M78.4,10.7h13.5c1.8,0,3.2,1.4,3.2,3.2v82.7c0,1.8-1.4,3.2-3.2,3.2h-87c-1.8,0-3.2-1.4-3.2-3.2V13.8
+		c0-1.8,1.4-3.2,3.2-3.2h13"/>
+	<line class="st1" x1="27.5" y1="10.7" x2="68.8" y2="10.7"/>
+	<path class="st1" d="M24,19.6h-2.9c-1.7,0-3-1.3-3-3V4.8c0-1.7,1.3-3,3-3H24c1.7,0,3,1.3,3,3v11.8C27,18.2,25.6,19.6,24,19.6z"/>
+	<path class="st1" d="M75.2,19.6h-2.9c-1.7,0-3-1.3-3-3V4.8c0-1.7,1.3-3,3-3h2.9c1.7,0,3,1.3,3,3v11.8
+		C78.2,18.2,76.8,19.6,75.2,19.6z"/>
+	<path class="st1" d="M92.1,99.8H4.7c-1.7,0-3-1.3-3-3v-67h93.4v67C95.1,98.4,93.7,99.8,92.1,99.8z"/>
+	<path d="M46.7,72.6L46.7,72.6c-0.4-0.4-0.2-1.3,0.5-2l20.5-20.5c0.7-0.7,1.6-0.9,2-0.5l0,0c0.4,0.4,0.2,1.3-0.5,2L48.6,72.1
+		C47.9,72.8,47,73,46.7,72.6z"/>
+	<path d="M48.1,72.6L48.1,72.6C47.7,73,47,73,46.5,72.5L33.2,59.2c-0.5-0.5-0.5-1.1-0.1-1.5l0,0c0.4-0.4,1.1-0.4,1.5,0.1L48,71.1
+		C48.4,71.6,48.5,72.2,48.1,72.6z"/>
+</g>
+</symbol><symbol id="tools" viewBox="0 0 99.3 96.5">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<ellipse class="st0" cx="49.6" cy="33.1" rx="27.1" ry="7.1"/>
+<path class="st1" d="M26.3,44.7c-2.5-1.1-5.2-3.6-5.2-6.4c0-1.4,0.4-2.8,1.2-3.9"/>
+<path class="st1" d="M73,44.7c2.5-1.1,5.2-3.6,5.2-6.4c0-1.4-0.4-2.8-1.2-3.9"/>
+<path class="st2" d="M22.5,31.6c0-16.5,12.1-29.8,27.1-29.8s27.1,13.3,27.1,29.8"/>
+<line class="st1" x1="49.6" y1="2.1" x2="49.6" y2="15"/>
+<g>
+	<path class="st1" d="M31.9,76.1"/>
+	<path class="st1" d="M1.8,94.7c-0.4-15,12-18.6,16.5-18.6c2.8,0,13.7,0,13.7,0h35.5"/>
+</g>
+<g>
+	<path class="st1" d="M67.4,76.1"/>
+	<path class="st1" d="M67.4,76.1c0,0,10.9,0,13.7,0c4.5,0,16.9,3.6,16.5,18.6"/>
+</g>
+<path class="st1" d="M63.5,76.8c0,7.7-6.2,13.9-13.9,13.9s-13.9-6.2-13.9-13.9"/>
+<line class="st1" x1="19.1" y1="76.1" x2="19.1" y2="94.7"/>
+<line class="st1" x1="27.4" y1="76.1" x2="27.4" y2="94.7"/>
+<line class="st1" x1="71.9" y1="76.1" x2="71.9" y2="94.7"/>
+<line class="st1" x1="79.8" y1="76.1" x2="79.8" y2="94.7"/>
+<path class="st1" d="M20.2,70.4c2.6-1.5,4.2-4.1,4.2-7c0-3.6-2.6-6.7-6.2-7.9v7.4h-6v-7.4C8.6,56.6,6,59.7,6,63.4
+	c0,2.9,1.7,5.5,4.2,7"/>
+<line class="st1" x1="10.3" y1="76.9" x2="10.3" y2="70.8"/>
+<line class="st1" x1="20.2" y1="70.8" x2="20.2" y2="75.9"/>
+<circle class="st1" cx="82.9" cy="71.3" r="3.3"/>
+<path class="st1" d="M82.9,50.6h-3.2c0,0-4,8.7-4.8,10.7s-2.1,6.6-1.5,13.7"/>
+<path class="st1" d="M82.9,68V50.6H86c0,0,4,8.7,4.8,10.7s2.1,6.6,1.5,13.7v5.5"/>
+<path class="st2" d="M71.8,38.2v16.4c0,6.4-5.2,11.6-11.6,11.6H39c-6.4,0-11.6-5.2-11.6-11.6V38.2"/>
+</symbol><symbol id="transport" viewBox="0 0 99.8 99.3">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M49.8,5.8c0,0-30.8,0-32.4,0s-2.8,1.2-3,2.6c-0.2,0.9-1.8,14.3-2.9,23.1c-0.6,4.5-1,7.8-1,7.8"/>
+	<polyline class="st0" points="11.4,31.5 5.2,31.5 5.2,21 	"/>
+	<line class="st0" x1="24.3" y1="5.8" x2="24.3" y2="1.8"/>
+	<path class="st0" d="M20.7,53.6c0,0-1.6-6.2-2.3-8.4c-0.6-2.3-2.1-4-8-4c-4.8,0-4.4,0-4.4,0s-4.3-0.1-4.3,4.5s0,25.7,0,25.7
+		s0,0.1,2.3,0.1"/>
+	<line class="st0" x1="17.6" y1="31.5" x2="49.8" y2="31.5"/>
+	<line class="st0" x1="29.2" y1="79.8" x2="49.8" y2="79.8"/>
+	<line class="st0" x1="43.3" y1="51" x2="43.3" y2="40.5"/>
+	<line class="st0" x1="49.9" y1="51" x2="49.9" y2="40.5"/>
+	<line class="st0" x1="1.8" y1="59.7" x2="49.6" y2="59.7"/>
+	<line class="st0" x1="1.8" y1="71.4" x2="49.6" y2="71.4"/>
+	<path class="st0" d="M22.9,77.8v16.4c0,1.9-1.5,3.4-3.4,3.4H7.4C5.5,97.6,4,96,4,94.2V72.8"/>
+	<circle class="st0" cx="31.4" cy="45.7" r="5.4"/>
+	<path class="st0" d="M50,5.8c0,0,30.8,0,32.4,0s2.8,1.2,3,2.6c0.2,0.9,1.8,14.3,2.9,23.1c0.6,4.5,1,7.8,1,7.8"/>
+	<polyline class="st0" points="88.4,31.5 94.6,31.5 94.6,21 	"/>
+	<line class="st0" x1="75.5" y1="5.8" x2="75.5" y2="1.8"/>
+	<path class="st0" d="M79.1,53.6c0,0,1.6-6.2,2.3-8.4c0.6-2.3,2.1-4,8-4c4.8,0,4.4,0,4.4,0s4.3-0.1,4.3,4.5s0,25.7,0,25.7
+		s0,0.1-2.3,0.1"/>
+	<line class="st0" x1="82.2" y1="31.5" x2="50" y2="31.5"/>
+	<line class="st0" x1="70.6" y1="79.8" x2="50" y2="79.8"/>
+	<line class="st0" x1="56.5" y1="51" x2="56.5" y2="40.5"/>
+	<line class="st0" x1="98" y1="59.7" x2="50.1" y2="59.7"/>
+	<line class="st0" x1="97.9" y1="71.4" x2="50.1" y2="71.4"/>
+	<path class="st0" d="M76.8,77.8v16.4c0,1.9,1.5,3.4,3.4,3.4h12.1c1.9,0,3.4-1.5,3.4-3.4V72.8"/>
+	<circle class="st0" cx="68.3" cy="45.7" r="5.4"/>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x412;&#x430;&#x43B;&#x438;&#x43A;" viewBox="0 0 96.8 94.2">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M68.6,20.9L20.9,68.6c-1.3,1.3-3.5,1.3-4.9,0L2.7,55.3c-1.3-1.3-1.3-3.5,0-4.9L50.5,2.8c1.3-1.3,3.5-1.3,4.9,0
+		L68.6,16C69.9,17.4,69.9,19.5,68.6,20.9z"/>
+	<polyline class="st1" points="64.4,6.9 76.3,18.8 53.2,50 62.6,59.4 	"/>
+	<path class="st1" d="M94.4,85.9l-5.8,5.8c-1,1-2.5,1-3.5,0L64.2,70.8c-1-1-1-2.5,0-3.5l5.8-5.8c1-1,2.5-1,3.5,0l20.9,20.9
+		C95.3,83.4,95.3,85,94.4,85.9z"/>
+	<path class="st1" d="M70.1,61.3L64,67.5c-0.4,0.4-1,0.4-1.4,0l-3.3-3.3c-0.4-0.4-0.4-1,0-1.4l6.1-6.1c0.4-0.4,1-0.4,1.4,0l3.3,3.3
+		C70.5,60.3,70.5,60.9,70.1,61.3z"/>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x412;&#x44B;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x435;" viewBox="0 0 96.2 100">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M85.5,19.3l8.7,8.7c1,1,1,2.7,0,3.8L49.5,76.6c-1,1-2.7,1-3.8,0L19.5,50.3c-1-1-1-2.7,0-3.8L64.2,1.8
+		c1-1,2.7-1,3.8,0l9,9"/>
+	<line class="st0" x1="63.4" y1="23" x2="53" y2="12.6"/>
+	<line class="st0" x1="83.1" y1="42.7" x2="73.2" y2="32.8"/>
+	<path class="st0" d="M80.6,8.5l6.9,6.9c0.7,0.7,0.7,1.7,0,2.4L55.1,50.2c-0.7,0.7-1.7,0.7-2.4,0l-6.9-6.9c-0.7-0.7-0.7-1.7,0-2.4
+		L78.2,8.5C78.9,7.9,80,7.9,80.6,8.5z"/>
+	<path class="st1" d="M18.3,49.2l28.6,28.6h0c-3.9-0.4-7.7-0.3-11.6,0.3c-5.2,0.8-10.7,2.1-14.7,5.2l-0.3,0.3l-7.8-7.8l0,0
+		c3.5-4.4,4.9-10.6,5.7-16.3C18.7,56,18.7,52.6,18.3,49.2L18.3,49.2z"/>
+	<polygon class="st1" points="13.2,77.5 18.4,82.7 14.5,86.6 4.8,85.8 	"/>
+	<polyline class="st2" points="83.6,43.1 88.1,94.8 39.9,99 	"/>
+	<polyline class="st2" points="5.6,85.4 1,33.2 35.1,30.1 	"/>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x432;&#x44B;&#x43A;&#x43B;" viewBox="0 0 99.8 110.1">
+<style type="text/css">
+	.st0{fill:#0B0B0B;}
+	.st1{fill:none;stroke:#0B0B0B;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M49.9,31L49.9,31c-0.8,0-1.5-0.7-1.5-1.5v-28c0-0.8,0.7-1.5,1.5-1.5l0,0c0.8,0,1.5,0.7,1.5,1.5v28
+	C51.4,30.3,50.7,31,49.9,31z"/>
+<path class="st1" d="M43.9,12.2c-23.9,3-42.4,23.3-42.4,48c0,26.7,21.7,48.4,48.4,48.4c26.7,0,48.4-21.7,48.4-48.4
+	c0-24.7-18.5-45-42.4-48"/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x433;&#x430;&#x437;&#x435;&#x442;&#x430;" viewBox="0 0 100 79.8">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M99.1,71.2H12.4V6.6c0-1.9-0.4-3.7-1.2-5.4l0,0h75.5c6.9,0,12.4,5.6,12.4,12.4V71.2z"/>
+<path class="st1" d="M12.4,71.2V5.1c0-2.2-1.8-4-4-4h0C4.3,1.1,1,4.4,1,8.5V79h89.7l7.8-6.9"/>
+<polyline class="st2" points="6,10.9 6,75.1 94.3,75.1 "/>
+<path class="st2" d="M50.4,43h-30c-0.7,0-1.3-0.6-1.3-1.3V21.2c0-0.7,0.6-1.3,1.3-1.3h30c0.7,0,1.3,0.6,1.3,1.3v20.5
+	C51.7,42.4,51.1,43,50.4,43z"/>
+<path d="M70.2,14.2H35.8c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h34.5c0.6,0,1,0.4,1,1v0C71.2,13.8,70.8,14.2,70.2,14.2z"/>
+<path d="M88.5,22.2H56.4c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h32.1c0.6,0,1,0.4,1,1v0C89.5,21.7,89.1,22.2,88.5,22.2z"/>
+<path d="M88.5,29.1H56.4c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h32.1c0.6,0,1,0.4,1,1v0C89.5,28.6,89.1,29.1,88.5,29.1z"/>
+<path d="M88.5,36H56.4c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h32.1c0.6,0,1,0.4,1,1v0C89.5,35.6,89.1,36,88.5,36z"/>
+<path d="M88.5,42.9H56.4c-0.6,0-1-0.4-1-1l0,0c0-0.6,0.4-1,1-1h32.1c0.6,0,1,0.4,1,1l0,0C89.5,42.5,89.1,42.9,88.5,42.9z"/>
+<path d="M88.5,49.9H20.1c-0.6,0-1-0.4-1-1l0,0c0-0.6,0.4-1,1-1h68.4c0.6,0,1,0.4,1,1l0,0C89.5,49.4,89.1,49.9,88.5,49.9z"/>
+<path d="M88.5,56.8H20.1c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h68.4c0.6,0,1,0.4,1,1v0C89.5,56.3,89.1,56.8,88.5,56.8z"/>
+<path d="M67.7,63.7H43.5c-0.6,0-1-0.4-1-1v0c0-0.6,0.4-1,1-1h24.2c0.6,0,1,0.4,1,1v0C68.7,63.3,68.2,63.7,67.7,63.7z"/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x417;&#x430;&#x43A;&#x440;&#x435;&#x43F;" viewBox="0 0 99.7 91.2">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M47.3,10.1C46.5,1.3,54.6,1.5,59.9,1l1.3,0c4.7-0.4,7.5,3,7.9,7.6l3.8,39.7c0.4,4.7-3,8.8-7.6,9.2l0,0
+	c-4.7,0.4-8.8-3-9.2-7.6l-2.8-29.3"/>
+<path class="st0" d="M8.1,90.2L1,17.8c-0.1-1.1,0.7-2.1,1.8-2.2l86.2-8.4c1.1-0.1,2.1,0.7,2.2,1.8l7.4,75.5c0.1,1.1-0.7,2.1-1.8,2.2
+	l-36.7,3.6"/>
+<polygon class="st0" points="17,78 8.1,90.2 60.1,90.2 "/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x43A;&#x438;&#x440;&#x43F;&#x438;&#x447;&#x438;" viewBox="0 0 97 50.3">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<rect x="1.7" y="28.2" class="st0" width="43.9" height="20.4"/>
+<rect x="51.4" y="28.2" class="st0" width="43.9" height="20.4"/>
+<rect x="26.7" y="1.8" class="st0" width="43.9" height="20.4"/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x43A;&#x443;&#x43F;&#x44E;&#x440;&#x430;" viewBox="0 0 99.9 56.5">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0988,4.0988;}
+</style>
+<rect x="1.2" y="1" class="st0" width="97.7" height="54.8"/>
+<circle class="st0" cx="50" cy="28.4" r="14.8"/>
+<circle class="st0" cx="80.8" cy="28.4" r="6"/>
+<circle class="st0" cx="19.2" cy="28.4" r="6"/>
+<g>
+	<g>
+		<line class="st1" x1="13.2" y1="7.7" x2="15.2" y2="7.7"/>
+		<line class="st2" x1="19.3" y1="7.7" x2="82.8" y2="7.7"/>
+		<line class="st1" x1="84.9" y1="7.7" x2="86.9" y2="7.7"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="13.2" y1="49.2" x2="15.2" y2="49.2"/>
+		<line class="st2" x1="19.3" y1="49.2" x2="82.8" y2="49.2"/>
+		<line class="st1" x1="84.9" y1="49.2" x2="86.9" y2="49.2"/>
+	</g>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x41E;&#x433;&#x43E;&#x43D;&#x44C;" viewBox="0 0 75 99.1">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M1,61.6c0-12.7,8.4-23.9,16.6-32.4c10.8-11.5,12-21.3,9.9-28c19.9,11,22,28,23.1,33.3
+		c2.5-5.7,3.5-10.8,3.6-14.2c11.4,9.5,19.7,28.2,19.7,41.2C73.9,81.7,57.6,98,37.4,98S1,81.7,1,61.6z"/>
+	<path class="st0" d="M14.1,71.4c0-10,6-16.8,8.6-20c2.7-2.9,6.4-6.8,13-12.7c0,7.3,2.8,12.8,7.8,16.7c1.9-3,2.1-6.4,2.1-8.4
+		c6.8,5.7,11.7,16.7,11.7,24.5c0,11.9-9.7,21.6-21.6,21.6S14.1,83.3,14.1,71.4z"/>
+	<path class="st0" d="M31,67.6c-0.6,4.1,0.9,8.9,6.5,10.5c4.4,0.7,5.4-3.5,5.5-5c3.3,2.6,3.6,5.9,3.6,6.6c0,4-3.8,8.4-10.9,8.4
+		C24.2,88.1,16.5,75.4,31,67.6z"/>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x41F;&#x430;&#x43A;&#x435;&#x442;" viewBox="0 0 89.9 100">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M88.7,99.1H1.2C1.1,99.1,1,99,1,98.9V25.8c0-0.1,0.1-0.2,0.2-0.2h87.5c0.1,0,0.2,0.1,0.2,0.2v73.1
+	C88.9,99,88.8,99.1,88.7,99.1z"/>
+<g>
+	<polygon class="st1" points="1,25.6 12.9,25.6 12.9,14.1 	"/>
+	<polygon class="st1" points="7.2,7.2 12.9,14.1 7.1,19.7 	"/>
+</g>
+<g>
+	<polygon class="st1" points="88.9,25.6 77,25.6 77,14.1 	"/>
+	<polygon class="st1" points="82.7,7.2 77,14.1 82.8,19.7 	"/>
+</g>
+<line class="st2" x1="44.5" y1="7.2" x2="82.7" y2="7.2"/>
+<line class="st2" x1="7.2" y1="7.2" x2="29.4" y2="7.2"/>
+<circle class="st1" cx="29.7" cy="33.5" r="3.8"/>
+<circle class="st1" cx="60.4" cy="33.5" r="3.8"/>
+<path class="st2" d="M60.4,33.6v15.2c0,8.2-7,14.8-15.1,14.8h-0.8c-8.2,0-14.8-6.7-14.8-14.8V33.6"/>
+<path class="st2" d="M11.9,25.3L35.6,1.6c0.8-0.8,2.1-0.8,2.8,0l23.7,23.7"/>
+<path class="st2" d="M52.5,14.7l5.8-5.8c0.8-0.8,2.1-0.8,2.8,0l16.7,16.7"/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x440;&#x443;&#x447;&#x43A;&#x430;" viewBox="0 0 100 100">
+<style type="text/css">
+	.st0{fill:#0B0B0B;}
+	.st1{fill:none;stroke:#0B0B0B;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M67.5,40.2c-1.3,1.5-8.7,10.6-20.3,19.9c-9.6,7.8-24.6,16.8-24.6,16.8s9.1-15.1,17-24.8
+	c9.3-11.5,18.2-18.8,19.7-20.1c3.3-2.8,17.6-14,19.9-11.8S70,37.3,67.5,40.2z"/>
+<path class="st1" d="M68.4,25c0,0-2.2-8.4-10.9-1.1S46.6,39.3,46.6,39.3l-0.8,2.4l-5.3-0.3"/>
+<line class="st1" x1="70.3" y1="23.9" x2="75.6" y2="29.3"/>
+<line class="st1" x1="36.3" y1="68.1" x2="31.5" y2="63.2"/>
+<line class="st1" x1="27.5" y1="69.2" x2="30.4" y2="72"/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;" viewBox="0 0 100 100">
+<style type="text/css">
+	.st0{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M24.7,70.2H14.4c-7.3,0-13.3-5.9-13.3-13.3V14.4C1.2,7,7.1,1.1,14.4,1.1h71.1c7.3,0,13.3,5.9,13.3,13.3v42.5
+	c0,7.3-5.9,13.3-13.3,13.3H47.1"/>
+<polyline points="48.7,70.2 17.3,92.3 23.9,70.2 "/>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x43A;&#x430; &#x448;&#x430;&#x440;" viewBox="0 0 89.9 99.4">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1" class="st0">
+	
+		<image style="display:inline;overflow:visible;opacity:0.45;" width="148" height="127" xlink:href="CBC39267.jpg" transform="matrix(0.8559 0 0 0.8559 -17.1667 -4.4093)">
+	</image>
+</g>
+<g id="&#x421;&#x43B;&#x43E;&#x439;_2">
+	<path class="st1" d="M78.2,11.7c-14.1-14.1-36.9-14.1-51,0C13.2,25.8,5.6,56.2,19.7,70.3c14.1,14.1,44.4,6.5,58.5-7.5
+		C92.3,48.6,92.3,25.8,78.2,11.7z M18.9,43.4c-0.9,8.7,0.5,17.1,5.1,23.2 M74.5,16.7c-4.2-4.2-9.3-7.2-14.6-8.9 M56.8,41.1v15h-15
+		v-15h-7.6l15.1-18.8l15.1,18.8H56.8z"/>
+	<path class="st2" d="M17.5,74.2l-1.7-1.7c-0.5-0.5-2-1.3-1.6-1.8l3-1.4c0.9-0.5,1.2-0.4,1.7,0.1l1.7,1.7c0.5,0.5,0.5,1,0.1,1.7
+		l-1.4,3C18.8,76.3,18,74.7,17.5,74.2z"/>
+	<path class="st3" d="M21.3,73.5L16.9,69c0,0-8.3-5.4-14.1,3.1C-2,79.4,3.6,90,12.8,88.3c6.7-1.2,15.3-6.2,20.1-1.3
+		c4.1,4.2-0.2,11.5-0.2,11.5"/>
+</g>
+</symbol><symbol id="&#x418;&#x43A;&#x43E;&#x43D;&#x43A;&#x430; &#x444;&#x43E;&#x442;&#x438;&#x43A;" viewBox="0 0 100 100">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M77.7,18.8H89c5.5,0,10,4.5,10,10v48.5c0,5.5-4.5,10-10,10H11c-5.5,0-10-4.5-10-10V28.8c0-5.5,4.5-10,10-10
+		h31.1"/>
+	<path class="st0" d="M42.1,18.8L42.1,18.8c0-6.1,4.9-11,11-11h13.6c6.1,0,11,4.9,11,11v0"/>
+	<path class="st1" d="M30.1,18.8H10.5v-2.5c0-1.7,1.3-3,3-3h13.5c1.7,0,3,1.3,3,3V18.8z"/>
+	<circle class="st0" cx="13.5" cy="31.3" r="4.6"/>
+	<circle class="st0" cx="59.9" cy="49.4" r="24.9"/>
+</g>
+</symbol></svg>

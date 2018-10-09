@@ -1,0 +1,88 @@
+doctype html
+
+html(lang="ru")
+
+  head
+
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    title index page
+    link(rel="preload" href="fonts/Roboto.woff2" as="font")
+    link(rel="preload" href="fonts/Robotolight.woff2" as="font")
+    link(rel="preload" href="fonts/Robotomedium.woff2" as="font")
+    link(type="text/css", rel="stylesheet", href="css/rdn-style.css")
+    
+
+  body
+    div(class="page")
+    
+      header(class="page-header")
+        div(class="row page-header__top")
+          div(class="content-wrap content-wrap--between")
+            a(class="page-header__logo" href="#")
+              img(src="img/main-logo.png", alt="main logo" width="214" height="50")
+            form(class="page-header__search form")
+              div.row
+                label(class="form__label form__label--invisible" for="searchSite") Ссылка на сайт
+                input(class="form__item page-header__item-search" type="text" id="searchSite" name="searchSite")
+                button(class="btn form__btn" type="submit") Найти
+            div.page-header__user-action
+              a.page-header__add(href="new-shop.html") Добавить объявление
+              a.page-header__login(href="#") Войдите
+              span или
+              a.page-header__regin(href="registration.html") Зарегистрируйтесь
+
+        div(class="row page-header__middle")
+          div(class="content-wrap")
+            h1(class="page-header__title") Крупнейшая бесплатная доска объявлений
+
+        div(class="row page-header__bottom")
+          div(class="content-wrap content-wrap--between")
+            div(class="page-header__region")
+              div Поиск в регионе: 
+              a(href="#") Все регионы
+            nav(class="site-nav")
+
+              ul(class="site-nav__list")
+                
+                li(class="site-nav__item"): a(href="./adverts") Объявления
+                li(class="site-nav__item"): a(href="#") Магазины
+                li(class="site-nav__item"): a(href="#") Услуги
+                li(class="site-nav__item"): a(href="#") Помошь
+                
+          
+      main(class="page-main page-main--index")
+        div(class="content-wrap")
+
+          ul(class = "page-main__list catalog")
+            include ./partition.pug
+            +partition
+
+      footer(class="page-footer")
+        div(class="content-wrap")
+          div(class="row")
+          
+            nav(class="site-nav")
+
+              ul(class="site-nav__list page-footer__list")
+                li(class="site-nav__item"): a(href="#") Ads
+                li(class="site-nav__item"): a(href="#") Services
+                li(class="site-nav__item"): a(href="#") Advertisign
+                li(class="site-nav__item"): a(href="#") Contact us
+
+          div(class="row")
+          
+            nav(class="site-nav")
+
+              ul(class="site-nav__list page-footer__list")
+                
+                li(class="site-nav__item"): a(href="#") Shops
+                li(class="site-nav__item"): a(href="#") Project blog
+                li(class="site-nav__item"): a(href="#") Help
+                li(class="site-nav__item"): a(href="#") Sitemap
+                li(class="site-nav__item"): a(href="#") Agreement
+
+            div(class="page-footer__lang")
+              div Язык:
+              a(href="#") Русский

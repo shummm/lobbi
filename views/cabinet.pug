@@ -1,0 +1,587 @@
+doctype transitional
+
+html(lang = "ru")
+
+  head
+
+    meta(charset = "utf-8")
+
+    title Лоббидо Кабинет
+
+    link(type = "text/css", rel = "stylesheet", href = "css/styles.css")
+
+
+  body
+    header(class = "main-header")
+        div(class = "main-header__top-wrapper")
+            div(class = "main-header__wrapper")
+                img(src = "img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                section(class = "main-header__user-block user-block")
+                    a(class = "user-block__ad" href = "#") Добавить объявление
+                    p(class = "user-block__login") #[a(href = "#") Войдите] или #[a(href = "#") Зарегистрируйтесь]
+        div(class = "main-header__middle-wrapper")
+            nav(class = "main-header__navigation navigation")
+                ul(class = "navigation__list")
+                    li(class = "navigation__item")
+                        a(href = "#") Объявления
+                    li(class = "navigation__item")
+                            a(href = "#") Магазины
+                    li(class = "navigation__item")
+                        a(href = "#") Услуги
+                    li(class = "navigation__item")
+                        a(href = "#") Блог
+                    li(class = "navigation__item")
+                        a(href = "#") Помощь
+        div(class = "main-header__bottom-wrapper")
+            nav(class = "main-header__section-navigation section-navigation")
+                ul(class = "section-navigation__list")
+                     li(class = "section-navigation__item")
+                         a(href = "#") Объявления
+                     li(class = "section-navigation__item")
+                         a(href = "#") Избранное
+                     li(class = "section-navigation__item")
+                        a(href = "#") Сообщения
+                     li(class = "section-navigation__item")
+                         a(href = "#") Счет
+                     li(class = "section-navigation__item section-navigation__item--current")
+                         a(href = "#") Настройки
+                a(class = "section-navigation__open-shop" href = "#") Открыть магазин
+
+    main(class = "cabinet")
+        h1(class = "visually-hidden") Лоббидо, площадка для объявлений
+        ul(class = "cabinet__list cabinet-content")
+            li(class = "cabinet-content__item cabinet-content__item--ads cabinet-ads")
+                h2(class = "cabinet-ads__header") Название объявления
+                form
+                ul(class = "cabinet-ads__list")
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-balloon", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--balloon")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-balloon.svg", width= "58", height= "65")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Повышая приоритет вашего объявления вы поднимаете его в начало списка объявлений схожей тематики. <br/> Это удобный способ для привлечения внимания посетителей портала к вашему предложению. <br/> Станьте первыми в списке и будете лидером по числу просмотров.
+                        p(class = "cabinet-ads__price") 30 USD
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-pen", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--pen")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-pen.svg", width= "56", height= "59")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Объявление выделяется желтым фоном на всё время размещения на сайте. <br/> Выделение объявления — отличный способ сделать ваше объявление более ярким и заметным на фоне соседних.
+                        p(class = "cabinet-ads__price") 30 USD
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-folder", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--folder")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-folder.svg", width= "58", height= "53")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Закрепив объявление вы поднимаете его в начало списка объявлений схожей тематики на 7 дней. <br/> - в 10 раз больше просмотров <br/> - в 5 раз больше откликов <br/> - продажа совершается гораздо быстрее
+                        p(class = "cabinet-ads__price") 30 USD
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-fire", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--fire")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-fire.svg", width= "48", height= "64")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Пометьте объявление как срочное до тех пор, пока вы не продадите свой товар. <br/> - вы привлекаете больше внимания, а значит получаете больше откликов <br/> - ваше объявление становится более заметным среди других предложений
+                        p(class = "cabinet-ads__price") 30 USD
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-paper", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--paper")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-paper.svg", width= "57", height= "46")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Вы можете сделать ваше объявление более заметным, опубликовав его в прессе. Объявления публикуются в городской газете города. Газета выходит каждую среду, продается во всех газетных киосках. Более подробные условия можно узнать, обратившись к нам.
+                        p(class = "cabinet-ads__price") 30 USD
+                    li(class = "cabinet-ads__item")
+                        div(class = "cabinet-ads__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "ads-bag", checked)
+                                span(class = "cabinet-ads__checkbox cabinet-ads__checkbox--bag")
+                        img(class = "cabinet-ads__icon", src = "img/icons/icon-bag.svg", width= "52", height= "58")
+                        div(class = "cabinet-ads__wrapper")
+                            h3 Выберите способ оплаты
+                            p Хотите продать свой товар/услугу максимально быстро? Тогда это предложение именно для вас: <br/> - Закрепление объявления на 5 дней <br/> - Выделение объявления на 5 дней <br/> - Пометка “Срочно” на 15 дней
+                        p(class = "cabinet-ads__price") 30 USD
+                p(class = "cabinet-ads__total-price") К оплате #[span 5 700 USD]
+                section(class = "cabinet-ads__payment payment")
+                    h3 Выберите способ оплаты
+                    ul(class = "payment__list")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-1st-option")
+                                span(class = "payment__checkbox payment__checkbox--1st-option")
+                                div(class = "payment__logo payment__logo--1st-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-2nd-option")
+                                span(class = "payment__checkbox payment__checkbox--2nd-option")
+                                div(class = "payment__logo payment__logo--2nd-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-3rd-option")
+                                span(class = "payment__checkbox payment__checkbox--3rd-option")
+                                div(class = "payment__logo payment__logo--3rd-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                button(class = "cabinet-ads__submit", type = "submit") Продолжить
+                a(class = "cabinet-ads__cancel", href = "#") Отмена
+
+            li(class = "cabinet-content__item cabinet-content__item--account account")
+                div(class = "account__wrapper")
+                    h2(class = "account__header") История операций
+                    div(class = "account__balance")
+                        p Баланс #[span 500 USD]
+                        button(class = "account__add-funds") Пополнить счет
+                ul(class = "account__list")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                                p Описание
+                            li(class = "account__number")
+                                p № Операции
+                            li(class = "account__price")
+                                p Сумма
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                    li(class = "account__item")
+                        ul(class = "account__operations")
+                            li(class = "account__description")
+                            li(class = "account__number")
+                            li(class = "account__price")
+                input(class = "account__adding-funds", type = "text", placeholder = "Введите желаемую сумму", id = "funds")
+                section(class = "account__payment payment")
+                    h3 Выбери способ оплаты
+                    ul(class = "payment__list")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-1st-option")
+                                span(class = "payment__checkbox payment__checkbox--1st-option")
+                                div(class = "payment__logo payment__logo--1st-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-2nd-option")
+                                span(class = "payment__checkbox payment__checkbox--2nd-option")
+                                div(class = "payment__logo payment__logo--2nd-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                        li(class = "payment__item")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "payment-3rd-option")
+                                span(class = "payment__checkbox payment__checkbox--3rd-option")
+                                div(class = "payment__logo payment__logo--3rd-option")
+                                    img(src = "img/paypal.png", width = "91", height = "26")
+                button(class = "account__submit", type = "submit") Продолжить
+                a(class = "account__cancel", href = "#") Отмена
+
+            li(class = "cabinet-content__item cabinet-content__item--messages messages")
+                div(class = "messages__wrapper")
+                    ul(class = "messages__type type")
+                        li(class = "type__item type__item--all type__item--current")
+                            a(href = "#", class = "type__link") Все сообщения #[span(class = "type__number type__number--all") 5]
+                        li(class = "type__item type__item--favourite")
+                            a(href = "#", class = "type__link") Избранные #[span(class = "type__number type__number--favourite") 5]
+                        li(class = "type__item type__item--ignored")
+                            a(href = "#", class = "type__link") Игнорируемые #[span(class = "type__number type__number--ignored") 5]
+                    form(class = "messages__search")
+                         input(type = "text", id = "messages-search")
+                         button(type = "submit")
+                div(class = "messages__message-window message-window")
+                    div(class = "message-window__wrapper")
+                        a(href = "#") < Все сообщения
+                        div(class = "message-window__user")
+                            div(class = "message-window__photo")
+                                img(src = "img/user-mockup.png", width = "40", height = "44")
+                            h3(class = "message-window__name") Евгений
+                        a(href = "#") Объявления этого пользователя >
+                    div(class = "message-window__message message")
+                         div(class = "message__window")
+                             fieldset
+                                legend(class = "message__date") 12 января 2018
+                                ul(class = "message__list")
+                                    li(class = "message__item")
+                                        div(class = "message__wrapper")
+                                            div(class = "message_user")
+                                                div(class = "message__photo")
+                                                    img(src = "img/user-mockup-small.png", width = "24", height = "27")
+                                                h3(class = "message__name") Евгений
+                                            p(class = "message__time") 13:07
+                                        p(class = "message__text")
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                    li(class = "message__item")
+                                        div(class = "message__wrapper")
+                                            div(class = "message_user")
+                                                div(class = "message__photo")
+                                                    img(src = "img/user-mockup-small.png", width = "24", height = "27")
+                                                h3(class = "message__name") Не Евгений
+                                            p(class = "message__time") 13:07
+                                        p(class = "message__text")
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                         form(class = "message__type type")
+                             div(class = "type__wrapper")
+                                 textarea(class = "type__text", placeholder = "Наберите сообщение")
+                                 a(href = "#") Прикрепить файл не более 5мб
+                                 button(class = "type__submit", type = "submit") Отправить
+
+            li(class = "cabinet-content__item cabinet-content__item--featured featured")
+                div(class = "featured__wrapper")
+                    select(class = "featured__options")
+                        option Все категории
+                    ul(class = "featured__type")
+                        li(class = "featured__item featured__item--active")
+                            a(href = "#", class = "featured__link") Активные #[span(class = "featured__number featured__number--active") 5]
+                        li(class = "featured__item featured__item--not-active")
+                            a(href = "#", class = "featured__link") Не активные #[span(class = "featured__number featured__number--not-active") 5]
+                        li(class = "featured__item featured__item--delete")
+                            a(href = "#", class = "featured__link") Отчистить избранные
+                    form(class = "featured__search")
+                        input(type = "text", id = "featured-search")
+                        button(type = "submit")
+                ul(class = "featured__list")
+                    li(class = "featured__item featured-content")
+                        div(class = "featured-content__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "featured-content", checked)
+                                span(class = "featured-content__checkbox featured-content__checkbox--folder")
+                        section(class = "featured-content__content")
+                            div(class = "featured-content__photo")
+                                img(src = "img/camera.png", width = "62", height = "51")
+                            div(class = "featured-content__top-wrapper")
+                                ul(class = "featured-content__headers-list")
+                                    li
+                                        h3 Название объявления
+                                    li
+                                        p Категория
+                                    li
+                                        p Город
+                                div(class = "featured-content__price")
+                                    h3 5 700 USD
+                                    p Торг
+                                div(class = "featured-content__middle-wrapper")
+                                    ul(class = "featured-content__actions actions")
+                                        li(class = "actions__item actions__item--show")
+                                            p Посмотреть
+                                        li(class = "actions__item actions__item--edit")
+                                            p Редактировать
+                                        li(class = "actions__item actions__item--delete")
+                                            p Убрать из избранного
+                            div(class = "featured-content__bottom-wrapper")
+                                ul(class = "featured-content__statistics")
+                                    li
+                                        p Статистика:
+                                    li
+                                        p Просмотры: #[span(class = "featured-content__number featured-content__number--shows") 5]
+                                    li
+                                        p Контакты: #[span(class = "featured-content__number featured-content__number--contacts") 5]
+                                    li
+                                        p Сообщения: #[span(class = "featured-content__number featured-content__number--messages") 5]
+                                ul(class = "featured-content__date")
+                                    li
+                                        p С: #[span(class = "featured-content__time featured-content__time--start") 12 янв 2018]
+                                    li
+                                        p По: #[span(class = "featured-content__time featured-content__time--end") 12 янв 2018]
+
+            li(class = "cabinet-content__item cabinet-content__item--card card")
+                div(class = "card__wrapper")
+                    select(class = "card__options")
+                        option Все категории
+                    ul(class = "card__type type")
+                        li(class = "type__item type__item--active")
+                            a(href = "#", class = "type__link") Активные #[span(class = "type__number type__number--active") 5]
+                        li(class = "type__item type__item--current type__item--on-hold")
+                            a(href = "#", class = "type__link") На проверке #[span(class = "type__number type__number--on-hold") 5]
+                        li(class = "type__item type__item--not-active")
+                            a(href = "#", class = "type__link") Не активные #[span(class = "type__number type__number--not-active") 5]
+                    form(class = "card__search")
+                        input(type = "text", id = "card-search")
+                        button(type = "submit")
+                ul(class = "card__list")
+                    li(class = "card__item card-content")
+                        div(class = "card-content__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "card-content-first", checked)
+                                span(class = "card-content__checkbox card-content__checkbox--first-card")
+                        section(class = "card-content__content")
+                            div(class = "card-content__photo")
+                                img(src = "img/camera.png", width = "62", height = "51")
+                            div(class = "card-content__top-wrapper")
+                                ul(class = "card-content__headers-list")
+                                    li
+                                        h3 Название объявления
+                                    li
+                                        p Категория
+                                    li
+                                        p Город
+                                div(class = "card-content__price")
+                                    h3 5 700 USD
+                                    p Торг
+                                div(class = "card-content__middle-wrapper")
+                                    ul(class = "card-content__actions actions")
+                                        li(class = "actions__item actions__item--show")
+                                            p Посмотреть
+                                        li(class = "actions__item actions__item--edit")
+                                            p Редактировать
+                                        li(class = "actions__item actions__item--delete")
+                                            p Деактивировать
+                                    div(class = "card-content__promote")
+                                        span(class = "card-content__mail-count") 5
+                                        a(href = "#", class = "card-content__promote-link") Рекламировать
+                            div(class = "card-content__bottom-wrapper")
+                                ul(class = "card-content__statistics")
+                                    li
+                                        p Статистика:
+                                    li
+                                        p Просмотры: #[span(class = "card-content__number card-content__number--shows") 5]
+                                    li
+                                        p Контакты: #[span(class = "card-content__number card-content__number--contacts") 5]
+                                    li
+                                        p Сообщения: #[span(class = "card-content__number card-content__number--messages") 5]
+                                ul(class = "card-content__date")
+                                    li
+                                        p С: #[span(class = "card-content__time card-content__time--start") 12 янв 2018]
+                                    li
+                                        p По: #[span(class = "card-content__time card-content__time--end") 12 янв 2018]
+
+                    li(class = "card__item card-content")
+                        div(class = "card-content__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "card-content-second", checked)
+                                span(class = "card-content__checkbox card-content__checkbox--second-card")
+                        section(class = "card-content__content")
+                            div(class = "card-content__photo")
+                                img(src = "img/camera.png", width = "62", height = "51")
+                            div(class = "card-content__top-wrapper")
+                                ul(class = "card-content__headers-list")
+                                    li
+                                        h3 Название объявления
+                                    li
+                                        p Категория
+                                    li
+                                        p Город
+                                div(class = "card-content__price")
+                                    h3 5 700 USD
+                                    p Торг
+                                div(class = "card-content__middle-wrapper")
+                                    ul(class = "card-content__actions actions")
+                                        li(class = "actions__item actions__item--show")
+                                            p Посмотреть
+                                        li(class = "actions__item actions__item--edit")
+                                            p Редактировать
+                                        li(class = "actions__item actions__item--delete")
+                                            p Деактивировать
+                                    div(class = "card-content__promote")
+                                        span(class = "card-content__mail-count") 5
+                                        a(href = "#", class = "card-content__promote-link") Рекламировать
+                            div(class = "card-content__bottom-wrapper")
+                                ul(class = "card-content__statistics")
+                                    li
+                                        p Статистика:
+                                    li
+                                        p Просмотры: #[span(class = "card-content__number card-content__number--shows") 5]
+                                    li
+                                        p Контакты: #[span(class = "card-content__number card-content__number--contacts") 5]
+                                    li
+                                        p Сообщения: #[span(class = "card-content__number card-content__number--messages") 5]
+                                ul(class = "card-content__date")
+                                    li
+                                        p С: #[span(class = "card-content__time card-content__time--start") 12 янв 2018]
+                                    li
+                                        p По: #[span(class = "card-content__time card-content__time--end") 12 янв 2018]
+
+                    li(class = "card__item card-content")
+                        div(class = "card-content__controls")
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "card-content-third", checked)
+                                span(class = "card-content__checkbox card-content__checkbox--third-card")
+                        section(class = "card-content__content")
+                            div(class = "card-content__photo")
+                                img(src = "img/camera.png", width = "62", height = "51")
+                            div(class = "card-content__top-wrapper")
+                                ul(class = "card-content__headers-list")
+                                    li
+                                        h3 Название объявления
+                                    li
+                                        p Категория
+                                    li
+                                        p Город
+                                div(class = "card-content__price")
+                                    h3 5 700 USD
+                                    p Торг
+                                div(class = "card-content__middle-wrapper")
+                                    ul(class = "card-content__actions actions")
+                                        li(class = "actions__item actions__item--show")
+                                            p Посмотреть
+                                        li(class = "actions__item actions__item--edit")
+                                            p Редактировать
+                                        li(class = "actions__item actions__item--delete")
+                                            p Деактивировать
+                                    div(class = "card-content__promote")
+                                        span(class = "card-content__mail-count") 5
+                                        a(href = "#", class = "card-content__promote-link") Рекламировать
+                            div(class = "card-content__bottom-wrapper")
+                                ul(class = "card-content__statistics")
+                                    li
+                                        p Статистика:
+                                    li
+                                        p Просмотры: #[span(class = "card-content__number card-content__number--shows") 5]
+                                    li
+                                        p Контакты: #[span(class = "card-content__number card-content__number--contacts") 5]
+                                    li
+                                        p Сообщения: #[span(class = "card-content__number card-content__number--messages") 5]
+                                ul(class = "card-content__date")
+                                    li
+                                        p С: #[span(class = "card-content__time card-content__time--start") 12 янв 2018]
+                                    li
+                                        p По: #[span(class = "card-content__time card-content__time--end") 12 янв 2018]
+
+            li(class = "cabinet-content__item cabinet-content__item--setup cabinet-content__item--current setup")
+                form(class = "setup__form")
+                    div(class = "setup__border")
+                        section(class = "setup__details details")
+                            h2 Контактные данные
+                            fieldset(class = "details__contact")
+                                legend Контактное лицо
+                                div(class = "details__wrapper details__wrapper--required")
+                                    input(class = "details__contact-input", type = "text", required)
+                                p 70 знаков осталось
+                            fieldset(class = "details__photo")
+                                legend Фотография #[span Профили с личной фотографией пользуются большим доверием]
+                            fieldset(class = "details__contacts")
+                                legend Контакты
+                                div(class = "details__wrapper details__wrapper--required")
+                                    input(class = "details__phone-input", type = "text", placeholder = "Номер телефона", required)
+                                a(class = "details__add-phone", href = "#")
+                                div(class = "details__wrapper")
+                                    input(class = "details__watsapp-input", type = "text", placeholder = "Wats app")
+                                div(class = "details__wrapper")
+                                    input(class = "details__wiber-input", type = "text", placeholder = "Wiber")
+                                div(class = "details__wrapper")
+                                    input(class = "details__telegramm-input", type = "text", placeholder = "Telegramm")
+                            fieldset(class = "details__location")
+                                legend Местоположение
+                                div(class = "details__wrapper details__wrapper--required")
+                                    input(class = "details__city-input", type = "text", placeholder = "Введите название города", required)
+                                div(class = "details__wrapper setup__wrapper--required")
+                                    input(class = "details__address-input", type = "text", placeholder = "Точный адрес", required)
+                                div(class="details__map")
+                                    iframe(class = "details__google", src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d64010.14593820339!2d30.19897080820312!3d59.91028519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1535622205260", frameborder="0", style="border:0", allowfullscreen)
+                    div(class = "setup__border")
+                        section(class = "setup__social social")
+                            h2 Связь с социальными сетями
+                            ul(class = "social__list")
+                                li(class = "social__item")
+                                    a(href = "#")
+                                        img(src = "img/icons/icon-ok.png", width = "34", height = "35", alt = "Одноклассники лого")
+                                    p(class = "visually-hidden") Мы в Однокласниках
+                                li(class = "social__item")
+                                    a(href = "#")
+                                        img(src = "img/icons/icon-vk.png", width = "34", height = "35", alt = "Вконтакте лого")
+                                    p(class = "visually-hidden") Мы ВКонтакте
+                                li(class = "social__item")
+                                    a(href = "#")
+                                        img(src = "img/icons/icon-facebook.png", width = "34", height = "35", alt = "Facebook лого")
+                                    p(class = "visually-hidden") Мы в Facebook
+                    div(class = "setup__border")
+                        section(class = "setup__notifications notifications")
+                            h2 Настройка уведомлений
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "news", checked)
+                                span(class = "notifications__checkbox notifications__checkbox--news")
+                                p Получать рассылку о новостях LOBBiDO
+                            label
+                                input(class = "visually-hidden", type = "checkbox", id = "messages")
+                                span(class = "notifications__checkbox notifications__checkbox--messages")
+                                p Получать уведомления о новых сообщениях
+                    div(class = "setup__border")
+                        section(class = "setup__password password")
+                            h2 Изменить пароль
+                            div(class = "password__wrapper password__wrapper--required")
+                                input(class = "password__current-password-input", type = "password", placeholder = "Текущий пароль", required)
+                            div(class = "password__wrapper password__wrapper--required")
+                                input(class = "password__new-password-input", type = "password", placeholder = "Новый пароль", required)
+                            div(class = "password__wrapper password__wrapper--required")
+                                input(class = "password__new-password-repeat-input", type = "password", placeholder = "Новый пароль еще раз", required)
+                    div(class = "setup__border")
+                        section(class = "setup__email email")
+                            h2 Изменить пароль
+                            div(class = "email__wrapper email__wrapper--required")
+                                input(class = "email__current-email-input", type = "email", placeholder = "Ваш текущий email", required)
+                            div(class = "email__wrapper email__wrapper--required")
+                                input(class = "email__new-email-input", type = "email", placeholder = "Новый email", required)
+                            div(class = "email__wrapper email__wrapper--required")
+                                input(class = "email__password-for-email-input", type = "password", placeholder = "Текущий пароль", required)
+                    section(class = "setup__submit")
+                            button(type = "submit") Сохранить
+
+
+    div(class = "bottom-wrapper")
+        footer(class = "main-footer")
+            nav(class = "main-footer__navigation footer-navigation")
+                ul(class = "footer-navigation__list")
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Ads
+                    li(class = "footer-navigation__item")
+                            a(href = "#") Services
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Advertising
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Contact us
+                ul(class = "footer-navigation__list")
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Shops
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Project blog
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Help
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Sitemap
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Agreement
+                    li(class = "footer-navigation__item footer-navigation__item--language")
+                        p Язык: #[a(href = "#") Русский]
+

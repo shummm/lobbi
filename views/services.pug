@@ -1,0 +1,128 @@
+doctype transitional
+
+html(lang = "ru")
+
+  head
+
+    meta(charset = "utf-8")
+
+    title Лоббидо Услуги
+
+    link(type = "text/css", rel = "stylesheet", href = "/css/styles.css")
+
+
+  body
+    header(class = "main-header")
+        div(class = "main-header__top-wrapper")
+            div(class = "main-header__wrapper")
+                img(src = "/img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                section(class = "main-header__user-block user-block")
+                    a(class = "user-block__ad" href = "#") Добавить объявление
+                    p(class = "user-block__login") #[a(href = "#") Войдите] или #[a(href = "#") Зарегистрируйтесь]
+        div(class = "main-header__middle-wrapper")
+            nav(class = "main-header__navigation navigation")
+                ul(class = "navigation__list")
+                    li(class = "navigation__item")
+                        a(href = "#") Объявления
+                    li(class = "navigation__item")
+                            a(href = "#") Магазины
+                    li(class = "navigation__item")
+                        a(href = "#") Услуги
+                    li(class = "navigation__item")
+                        a(href = "#") Блог
+                    li(class = "navigation__item")
+                        a(href = "#") Помощь
+        div(class = "main-header__bottom-wrapper")
+            nav(class = "main-header__section-navigation section-navigation")
+                ul(class = "section-navigation__list")
+                     li(class = "section-navigation__item")
+                         a(href = "#") Объявления
+                     li(class = "section-navigation__item")
+                         a(href = "#") Избранное
+                     li(class = "section-navigation__item")
+                        a(href = "#") Сообщения
+                     li(class = "section-navigation__item")
+                         a(href = "#") Счет
+                     li(class = "section-navigation__item section-navigation__item--current")
+                         a(href = "#") Настройки
+                a(class = "section-navigation__open-shop" href = "#") Открыть магазин
+
+    main(class = "main-page")
+        h1(class = "visually-hidden") Лоббидо, площадка для объявлений
+        h2(class = "main-page__header") Услуги
+        div(class = "main-page__wrapper")
+            button(class = "main-page__button main-page__button--ads main-page__button--current") Объявления
+            button(class = "main-page__button main-page__button--shop") Магазин
+        ul(class = "main-page__list content")
+            li(class = "content__item content__item--current ads")
+                ul(class = "ads__list")
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-balloon.svg", width= "58", height= "65")
+                        div(class = "ads__wrapper")
+                            h3 Поднятие
+                            p Повышая приоритет вашего объявления вы поднимаете его в начало списка объявлений схожей тематики. <br/> Это удобный способ для привлечения внимания посетителей портала к вашему предложению. <br/> Станьте первыми в списке и будете лидером по числу просмотров.
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-pen.svg", width= "56", height= "59")
+                        div(class = "ads__wrapper")
+                            h3 Выделение
+                            p Объявление выделяется желтым фоном на всё время размещения на сайте. <br/> Выделение объявления — отличный способ сделать ваше объявление более ярким и заметным на фоне соседних.
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-folder.svg", width= "58", height= "53")
+                        div(class = "ads__wrapper")
+                            h3 Закрепление
+                            p Закрепив объявление вы поднимаете его в начало списка объявлений схожей тематики на 7 дней. <br/> - в 10 раз больше просмотров <br/> - в 5 раз больше откликов <br/> - продажа совершается гораздо быстрее
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-fire.svg", width= "48", height= "64")
+                        div(class = "ads__wrapper")
+                            h3 Срочно
+                            p Пометьте объявление как срочное до тех пор, пока вы не продадите свой товар. <br/> - вы привлекаете больше внимания, а значит получаете больше откликов <br/> - ваше объявление становится более заметным среди других предложений
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-paper.svg", width= "57", height= "46")
+                        div(class = "ads__wrapper")
+                            h3 Публикация в прессе
+                            p Вы можете сделать ваше объявление более заметным, опубликовав его в прессе. Объявления публикуются в городской газете города. Газета выходит каждую среду, продается во всех газетных киосках. Более подробные условия можно узнать, обратившись к нам.
+                    li(class = "ads__item")
+                        img(class = "ads__icon", src = "/img/icons/icon-bag.svg", width= "52", height= "58")
+                        div(class = "ads__wrapper")
+                            h3 Пакет "Турбо"
+                            p Хотите продать свой товар/услугу максимально быстро? Тогда это предложение именно для вас: <br/> - Закрепление объявления на 5 дней <br/> - Выделение объявления на 5 дней <br/> - Пометка “Срочно” на 15 дней
+            li(class = "content__item shop")
+                ul(class = "shop__list")
+                    li(class = "shop__item")
+                        img(class = "shop__icon", src = "/img/icons/icon-roll.svg", width= "67", height= "64")
+                        div(class = "shop__wrapper")
+                            h3 Закрепление
+                            p Закрепив магазин вы поднимаете его в начало списка магазинов на 5 дней. <br/> - в 10 раз больше просмотров <br/> - в 5 раз больше откликов
+                    li(class = "shop__item")
+                        img(class = "shop__icon", src = "/img/icons/icon-brick.svg", width= "77", height= "39")
+                        div(class = "shop__wrapper")
+                            h3 Выделение
+                            p Магазин выделяется желтым фоном на период 7 дней. <br/> Выделение магазина — отличный способ сделать ваш магазин более ярким и заметным на фоне соседних.
+
+    div(class = "bottom-wrapper")
+        footer(class = "main-footer")
+            nav(class = "main-footer__navigation footer-navigation")
+                ul(class = "footer-navigation__list")
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Ads
+                    li(class = "footer-navigation__item")
+                            a(href = "#") Services
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Advertising
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Contact us
+                ul(class = "footer-navigation__list")
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Shops
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Project blog
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Help
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Sitemap
+                    li(class = "footer-navigation__item")
+                        a(href = "#") Agreement
+                    li(class = "footer-navigation__item footer-navigation__item--language")
+                        p Язык: #[a(href = "#") Русский]
+
+  script(src = "/js/script.js")

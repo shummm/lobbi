@@ -1,0 +1,148 @@
+doctype html
+
+html(lang="ru")
+
+  head
+
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    title index page
+    link(rel="preload" href="fonts/Roboto.woff2" as="font")
+    link(rel="preload" href="fonts/Robotolight.woff2" as="font")
+    link(rel="preload" href="fonts/Robotomedium.woff2" as="font")
+    link(type="text/css", rel="stylesheet", href="css/rdn-style.css")
+    
+
+  body
+    div(class="page")
+    
+      header(class="page-header")
+        div(class="row page-header__top")
+          div(class="content-wrap content-wrap--between")
+            a(class="page-header__logo" href="#")
+              img(src="img/main-logo.png", alt="main logo" width="214" height="50")
+            div.page-header__user-action
+              a.page-header__add(href="new-shop.html") Добавить объявление
+              a.page-header__login(href="#") Войдите
+              span или
+              a.page-header__regin(href="registration.html") Зарегистрируйтесь
+
+        div(class="page-header__middle")
+          div(class="content-wrap")
+            h1(class="page-header__title") Крупнейшая бесплатная доска объявлений
+            
+          div(class="content-wrap content-wrap--between")
+            div(class="page-header__region")
+              div Поиск в регионе: 
+              a(href="#") Все регионы
+            nav(class="site-nav")
+
+              ul(class="site-nav__list")
+                
+                li(class="site-nav__item site-nav__item--active"): a(href="./adverts") Объявления
+                li(class="site-nav__item"): a(href="#") Магазины
+                li(class="site-nav__item"): a(href="#") Услуги
+                li(class="site-nav__item"): a(href="#") Помошь
+
+        div(class="row page-header__bottom")
+          div(class="content-wrap content-wrap--center")
+            form(class="page-header__search form")
+              div.row
+                label(class="form__label form__label--invisible" for="searchSite") Ссылка на сайт
+                input(class="form__item page-header__item-search" type="text" id="searchSite" name="searchSite")
+                button(class="btn form__btn" type="submit") Найти  
+                
+          
+      main(class="page-main page-main--index")
+        div(class="content-wrap")
+
+          ul(class = "page-main__list catalog catalog--min")
+            include ./partition-adv.pug
+            +partition-adv
+        
+          div(class="row")
+            div.page-main__adverts-list
+              input(type="checkbox" class="page-main__adverts-layout" id="advertsLayout")
+              div(class="page-main__label-wrap")
+                label(class="page-main__label-layout" for="advertsLayout") 
+              include ./advert-one.pug
+              +advert-one
+              +advert-one
+              +advert-one
+              +advert-one
+              +advert-one
+                
+              
+            div.page-main__filters
+              div.page-main__filters-clear Сбросить фильтры
+              form.filters(action="")
+                fieldset(class="filter-item")
+                    legend Стоимость:
+                    div(class="range-filter")
+                      div(class="range-controls")
+                        div(class="scale")
+                          div(class="bar" style="margin-left: 20%; width: 30%")
+                        div(class="toggle toggle-min")
+                        div(class="toggle toggle-max")
+                      div(class="price-controls")
+                        label(class="min-price") от
+                          input(name="min-price" type="text" value="0")
+                        label(class="max-price") до
+                          input(name="max-price" type="text" value="15000")
+              
+                fieldset(class="filter-item")
+                    legend Lorem:
+                    ul(class="grids-filter")
+                      li
+                        input(class="grid-radio" id="adaptive-grid" type="radio" name="grid-item" value="adaptive") 
+                        label(for="adaptive-grid") lorem ipsum
+                      li
+                        input(class="grid-radio" id="fix-grid" type="radio" name="grid-item" value="fix" checked)
+                        label(for="fix-grid") lorem ipsum
+                      li
+                        input(class="grid-radio" id="flex-grid" type="radio" name="grid-item" value="flex")
+                        label(for="flex-grid") lorem ipsum
+              
+                fieldset(class="filter-item")
+                    legend Lorem ipsum
+                    ul(class="blocks-filter")
+                      li
+                        input(class="block-check" id="chkbox-slider" type="checkbox" name="chkbox-slider")
+                        label(for="chkbox-slider") lorem ipsum
+                      li
+                        input(class="block-check" id="chkbox-features" type="checkbox" name="chkbox-features")
+                        label(for="chkbox-features") lorem ipsum
+                      li
+                        input(class="block-check" id="chkbox-news" type="checkbox" name="chkbox-news")
+                        label(for="chkbox-news") lorem ipsum
+                
+                button(class="btn catalog-btn" type="submit" name="filter-btn") Показать
+
+      footer(class="page-footer")
+        div(class="content-wrap")
+          div(class="row")
+          
+            nav(class="site-nav")
+
+              ul(class="site-nav__list page-footer__list")
+                li(class="site-nav__item"): a(href="#") Ads
+                li(class="site-nav__item"): a(href="#") Services
+                li(class="site-nav__item"): a(href="#") Advertisign
+                li(class="site-nav__item"): a(href="#") Contact us
+
+          div(class="row")
+          
+            nav(class="site-nav")
+
+              ul(class="site-nav__list page-footer__list")
+                
+                li(class="site-nav__item"): a(href="#") Shops
+                li(class="site-nav__item"): a(href="#") Project blog
+                li(class="site-nav__item"): a(href="#") Help
+                li(class="site-nav__item"): a(href="#") Sitemap
+                li(class="site-nav__item"): a(href="#") Agreement
+
+            div(class="page-footer__lang")
+              div Язык:
+              a(href="#") Русский

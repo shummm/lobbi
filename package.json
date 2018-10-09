@@ -1,0 +1,25 @@
+{
+  "name": "layouts",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravino",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/lobbido__company/lobbido-pages.git"
+  },
+  "keywords": [
+    "Pages"
+  ],
+  "homepage": "https://bitbucket.org/lobbido__company/lobbido-pages#readme"
+}

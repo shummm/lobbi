@@ -1,0 +1,120 @@
+doctype transitional
+
+html(lang = "ru")
+
+    head
+
+        meta(charset = "utf-8")
+
+        title Лоббидо Подача Объявления
+
+        link(type = "text/css", rel = "stylesheet", href = "css/styles.css")
+
+    body
+        header(class = "main-header")
+            div(class = "main-header__top-wrapper")
+                div(class = "main-header__wrapper")
+                    img(src = "img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                    section(class = "main-header__user-block user-block")
+                        a(class = "user-block__cabinet", href = "#") Личный кабинет
+
+        main(class = "adding-card")
+            div(class = "adding-card__top-wrapper")
+                div(class = "adding-card__wrapper")
+                    h1(class = "visually-hidden") Лоббидо, площадка для объявлений
+                    h2(class = "adding-card__header") Разместить объявление
+                    a(class = "adding-card__back") Назад
+            div(class = "adding-card__content card-form")
+                form
+                    fieldset(class = "card-form__contact")
+                        legend Заголовок
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__header-input", type = "text", required)
+                        p 70 знаков осталось
+                    fieldset(class = "card-form__category")
+                        legend Категория
+                        a(class = "card-form__category-option", href = "#") Выберите категорию
+                    fieldset(class = "card-form__description")
+                        legend Описание
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            textarea(class = "card-form__description-input", required)
+                        p 4000 знаков осталось
+                    fieldset(class = "card-form__video")
+                        legend Ссылка на видео
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__video-input", type = "text", required)
+                        p Youtube, Rutube, Vimeo
+                    fieldset(class = "card-form__photos")
+                        legend Фотографии #[span Объявления с фото получают в среднем в 3-5 раз больше откликов]
+                        ul(class = "card-form__photos-list")
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                            li(class = "card-form__photos-item")
+                                span +
+                        a(href = "#") Если у вас возникли проблемы воспользуйтесь #[span альтернативной формой]
+                    fieldset(class = "card-form__location")
+                        legend Местоположение
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__location-input", type = "text", placeholder = "Введите название города", required)
+                    fieldset(class = "card-form__contact-person")
+                        legend Ваши контактные данные
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__contact-person-input", type = "text", placeholder = "Контактное лицо", required)
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__email-input", type = "email", placeholder = "E-mail адрес", required)
+                    fieldset(class = "card-form__contacts")
+                        legend Контакты
+                        div(class = "card-form__wrapper card-form__wrapper--required")
+                            input(class = "card-form__phone-input", type = "phone", placeholder = "Номер телефона", required)
+                        a(class = "card-form__add-phone", href = "#")
+                        div(class = "card-form__wrapper")
+                            input(class = "card-form__watsapp-input", type = "text", placeholder = "Wats app")
+                        div(class = "card-form__wrapper")
+                            input(class = "card-form__wiber-input", type = "text", placeholder = "Wiber")
+                        div(class = "card-form__wrapper")
+                            input(class = "details__telegramm-input", type = "text", placeholder = "Telegramm")
+                    div(class = "card-form__terms")
+                        label
+                            input(class = "visually-hidden", type = "checkbox", id = "terms", checked)
+                            span(class = "card-form__checkbox card-form__checkbox--terms")
+                            p Я соглашаюсь с правилами использования сервиса, а также с передачей и обработкой моих данных в lobbido.com. Я подтверждаю своё совершеннолетие и ответственность за размещение объявления *
+                    button(class = "card-form__submit", type = "submit") Опубликовать объявление
+
+
+        div(class = "bottom-wrapper")
+            footer(class = "main-footer")
+                nav(class = "main-footer__navigation footer-navigation")
+                    ul(class = "footer-navigation__list")
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Ads
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Services
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Advertising
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Contact us
+                    ul(class = "footer-navigation__list")
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Shops
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Project blog
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Help
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Sitemap
+                        li(class = "footer-navigation__item")
+                            a(href = "#") Agreement
+                        li(class = "footer-navigation__item footer-navigation__item--language")
+                            p Язык: #[a(href = "#") Русский]
