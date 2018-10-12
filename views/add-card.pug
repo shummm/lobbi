@@ -14,7 +14,8 @@ html(lang = "ru")
         header(class = "main-header")
             div(class = "main-header__top-wrapper")
                 div(class = "main-header__wrapper")
-                    img(src = "img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                    a(class="page-header__logo" href="/")
+                        img(src = "img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
                     section(class = "main-header__user-block user-block")
                         a(class = "user-block__cabinet", href = "#") Личный кабинет
 
@@ -100,7 +101,7 @@ html(lang = "ru")
                         li(class = "footer-navigation__item")
                             a(href = "#") Ads
                         li(class = "footer-navigation__item")
-                            a(href = "#") Services
+                            a(href = "./services") Services
                         li(class = "footer-navigation__item")
                             a(href = "#") Advertising
                         li(class = "footer-navigation__item")
@@ -115,6 +116,6 @@ html(lang = "ru")
                         li(class = "footer-navigation__item")
                             a(href = "#") Sitemap
                         li(class = "footer-navigation__item")
-                            a(href = "#") Agreement
+                            a(href = "./terms-of-use") Agreement
                         li(class = "footer-navigation__item footer-navigation__item--language")
                             p Язык: #[a(href = "#") Русский]

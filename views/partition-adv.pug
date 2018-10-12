@@ -24,8 +24,9 @@ mixin partition-adv
     for item in categoryList
         li(class = "catalog__item--min")
             div(class = "partition-adv")
-                div(class = "partition-adv__header")
+                a(href="./adverts?section="+item.src)
+                    div(class = "partition-adv__header")
                     
-                    <svg class="partition-adv__logo" width="40" height="40">
-                        <use xlink:href="img/partition/sprite.svg##{item.src}" ></use>
-                    </svg>
+                        <svg class="partition-adv__logo" width="40" height="40">
+                            <use xlink:href="img/partition/sprite.svg##{item.src}" ></use>
+                        </svg>

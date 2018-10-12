@@ -15,16 +15,17 @@ html(lang = "ru")
     header(class = "main-header")
         div(class = "main-header__top-wrapper")
             div(class = "main-header__wrapper")
-                img(src = "/img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
+                a(class="page-header__logo" href="/")
+                    img(src = "/img/lobbido-logo.png", width = "214", height = "50", alt = "Lobbido logo")
                 section(class = "main-header__user-block user-block")
-                    a(class = "user-block__cabinet", href = "#") Личный кабинет
+                    a(class = "user-block__cabinet", href = "./cabinet") Личный кабинет
 
     main(class = "terms-of-use")
         div(class = "terms-of-use__top-wrapper")
             div(class = "terms-of-use__wrapper")
                 h1(class = "visually-hidden") Лоббидо, площадка для объявлений
                 h2(class = "terms-of-use__header") Условия использования
-                a(class = "terms-of-use__back") Назад
+                a(class = "terms-of-use__back", href="/") Назад
         div(class = "terms-of-use__middle-wrapper")
             ul(class = "terms-of-use__list")
                 li(class = "terms-of-use__item terms-of-use__item--current")

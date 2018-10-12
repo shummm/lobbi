@@ -31,7 +31,7 @@ mixin partition
                         <use xlink:href="img/partition/sprite.svg##{item.src}" ></use>
                     </svg>
 
-                    a(class = "partition__title" href="#")= item.title
+                    a(class = "partition__title" href="./adverts?section="+item.src)= item.title
                     ul(class = "partition__list")
                         for menu in item.menu
-                            li(class="partition__item"): a(class = "partition__sub-item" href="#")= menu
+                            li(class="partition__item"): a(class = "partition__sub-item" href="./adverts?section="+item.src)= menu
