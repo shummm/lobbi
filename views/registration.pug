@@ -12,11 +12,11 @@ html(lang="ru")
     link(rel="preload" href="fonts/Robotolight.woff2" as="font")
     link(rel="preload" href="fonts/Robotomedium.woff2" as="font")
     link(type="text/css", rel="stylesheet", href="css/rdn-style.css")
-    
+
 
   body
     div(class="page")
-    
+
       header(class="page-header")
         div(class="row page-header__top")
           div(class="content-wrap")
@@ -26,12 +26,12 @@ html(lang="ru")
         div(class="row page-header__middle")
           div(class="content-wrap content-wrap--start")
             div(class="page-header__back")
-              a(href="/") Назад
+              a(href="/") Главная
             h1(class="page-header__title") Зарегистрируйтесь на сайте с помощью<br> электронной почты
-          
+
       main(class="page-main")
         div(class="content-wrap")
-          
+
           form(class="form reg-form" action="#" method="post")
             div(class="form__row-wrap")
               input(class="form__item" type="email" name="regFormMail" placeholder="Электронная почта" required)
@@ -66,11 +66,10 @@ html(lang="ru")
             div(class="account__wrap")
               h4(class="account__title") Вы забыли свой пароль?
               a(class="btn btn--account" href="#") Восстановить пароль
-      
+
       footer(class="page-footer")
         div(class="content-wrap")
-          div(class="row")
-          
+          div(class="site-nav__wrapper")
             nav(class="site-nav")
 
               ul(class="site-nav__list page-footer__list")
@@ -78,19 +77,11 @@ html(lang="ru")
                 li(class="site-nav__item"): a(href="#") Services
                 li(class="site-nav__item"): a(href="#") Advertisign
                 li(class="site-nav__item"): a(href="#") Contact us
-
-          div(class="row")
-          
-            nav(class="site-nav")
-
-              ul(class="site-nav__list page-footer__list")
-                
                 li(class="site-nav__item"): a(href="#") Shops
                 li(class="site-nav__item"): a(href="#") Project blog
                 li(class="site-nav__item"): a(href="#") Help
                 li(class="site-nav__item"): a(href="#") Sitemap
                 li(class="site-nav__item"): a(href="#") Agreement
-
-            div(class="page-footer__lang")
-              div Язык:
-              a(href="#") Русский
+          div(class="page-footer__lang")
+            div Язык:
+            a(href="#") Русский
