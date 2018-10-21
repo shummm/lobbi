@@ -19,10 +19,12 @@ html(lang="ru")
 
       header(class="page-header")
         div(class="row page-header__top")
-          div(class="content-wrap")
+          div(class="content-wrap content-wrap--space__between")
+            button(class="page-header__menu-toggle")
             a(class="page-header__logo" href="/")
-              img(src="img/main-logo.png", alt="main logo" width="214" height="50")
-
+              img(src="img/main-logo.png", alt="main logo" class="header-logo" width="214" height="50")
+            a(class="page-header__profile" href="/")
+              img(src="img/profile.png", alt="user profile" class="header-profile" width="27" height="27")
         div(class="row page-header__middle")
           div(class="content-wrap content-wrap--start")
             div(class="page-header__back")
@@ -68,10 +70,9 @@ html(lang="ru")
               a(class="btn btn--account" href="#") Восстановить пароль
 
       footer(class="page-footer")
-        div(class="content-wrap")
+        div(class="content-wrap footer__content-wrap")
           div(class="site-nav__wrapper")
             nav(class="site-nav")
-
               ul(class="site-nav__list page-footer__list")
                 li(class="site-nav__item"): a(href="#") Ads
                 li(class="site-nav__item"): a(href="#") Services
