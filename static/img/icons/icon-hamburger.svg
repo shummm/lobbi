@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="40" viewBox="0 0 46 40">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #a350bc;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#b4d826"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="hamburger" class="cls-1">
+    <rect id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-2" width="46" height="6.813" rx="3.406" ry="3.406"/>
+    <rect id="Прямоугольник_1_копия" data-name="Прямоугольник 1 копия" class="cls-2" y="16.563" width="46" height="6.875" rx="3.425" ry="3.425"/>
+    <rect id="Прямоугольник_1_копия_2" data-name="Прямоугольник 1 копия 2" class="cls-2" y="33.188" width="46" height="6.813" rx="3.406" ry="3.406"/>
+  </g>
+</svg>

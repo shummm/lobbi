@@ -199,9 +199,14 @@ ul {
   .page-header__top {
     margin-bottom: 25px; }
   .page-header__logo {
-    margin-top: 10px;
+    margin-top: 10px;  
+  }
+  .page-header__logo img {
     width: 214px;
-    height: 50px; }
+    height: 50px;
+    object-fit: contain;
+  }
+
   .page-header__user-auth {
     color: #a350bc;
     font-size: 14px; }
@@ -235,6 +240,7 @@ ul {
     text-align: center; }
   .page-header__search {
     margin-top: 10px; }
+  
   .page-header__item-search {
     margin-right: 20px;
     max-width: 407px;
@@ -464,6 +470,8 @@ ul {
   width: 100%; }
   .partition__logo {
     margin-top: 15px;
+    height: 82px;
+    width: 82px;
     fill: none;
     stroke: #000000;
     stroke-width: 2;

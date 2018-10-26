@@ -12,6 +12,7 @@ html(lang="ru")
     link(rel="preload" href="fonts/Robotolight.woff2" as="font")
     link(rel="preload" href="fonts/Robotomedium.woff2" as="font")
     link(type="text/css", rel="stylesheet", href="css/rdn-style.css")
+    link(type="text/css", rel="stylesheet", href="css/responsive.css")
     
 
   body
@@ -20,8 +21,24 @@ html(lang="ru")
       header(class="page-header")
         div(class="row page-header__top")
           div(class="content-wrap content-wrap--between")
+            //span(class="site-nav-link", id="site-nav__toggle")
+            // i(class="site-navbar__icon")*/
+            input(type="checkbox", id="site-nav__check-menu", onclick="openNavbar()")
+            label(for="site-nav__check-menu", class="site-nav__toggle")
+            div(class="burger-line first")
+            div(class="burger-line second")
+            div(class="burger-line third")
+            div(class="burger-line fourth")
+
+            nav(class="site-navbar-resp")
+              ul(class="site-nav-resp__list", id="site-nav__menu")
+                li(class="site-nav__item"): a(href="./adverts") Объявления
+                li(class="site-nav__item"): a(href="#") Магазины
+                li(class="site-nav__item"): a(href="./services") Услуги
+                li(class="site-nav__item"): a(href="#") Помощь
+
             a(class="page-header__logo" href="#")
-              img(src="img/main-logo.png", alt="main logo" width="214" height="50")
+              img(src="img/main-logo.png", alt="main logo")
             form(class="page-header__search form")
               div.row
                 label(class="form__label form__label--invisible" for="searchSite") Ссылка на сайт
@@ -33,23 +50,30 @@ html(lang="ru")
               span или
               a.page-header__regin(href="./registration") Зарегистрируйтесь
 
-        div(class="row page-header__middle")
-          div(class="content-wrap")
-            h1(class="page-header__title") Крупнейшая бесплатная доска объявлений
 
-        div(class="row page-header__bottom")
+        div(class="page-header__middle", id="page-header__middle")
+          div(class="content-wrap")
+            h1(class="page-header__title") Крупнейшая доска бесплатных объявлений
+
           div(class="content-wrap content-wrap--between")
             div(class="page-header__region")
               div Поиск в регионе: 
-              a(href="#") Все регионы
+              a(href="#")
+                span(class="region__text") Все регионы
             nav(class="site-nav")
-
               ul(class="site-nav__list")
-                
                 li(class="site-nav__item"): a(href="./adverts") Объявления
                 li(class="site-nav__item"): a(href="#") Магазины
                 li(class="site-nav__item"): a(href="./services") Услуги
                 li(class="site-nav__item"): a(href="#") Помощь
+
+        div(class="row page-header__bottom")
+          div(class="content-wrap content-wrap--center")
+            form(class="page-header-resp__search form")
+              div.row
+                label(class="form__label form__label--invisible" for="searchSite") Ссылка на сайт
+                input(class="form__item page-header__item-search" type="text" id="searchSite" name="searchSite" placeholder="Найти")
+                button(class="btn form__btn" type="submit") Найти  
                 
           
       main(class="page-main page-main--index")
@@ -86,3 +110,5 @@ html(lang="ru")
             div(class="page-footer__lang")
               div Язык:
               a(href="#") Русский
+  
+  script(src="/js/navbar.js")
