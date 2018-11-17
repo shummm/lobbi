@@ -12,26 +12,26 @@ html(lang="ru")
     link(rel="preload" href="fonts/Robotolight.woff2" as="font")
     link(rel="preload" href="fonts/Robotomedium.woff2" as="font")
     link(type="text/css", rel="stylesheet", href="css/rdn-style.css")
-    
+
 
   body
     div(class="page")
-    
+
       header(class="page-header")
         div(class="row page-header__top")
           div(class="content-wrap content-wrap--between")
             a(class="page-header__logo" href="/")
               img(src="img/main-logo.png", alt="main logo" width="214" height="50")
-            a(class="page-header__user-auth" href="./cabinet") Личный кабинет 
+            a(class="page-header__user-auth" href="./cabinet") Личный кабинет
         div(class="row page-header__middle")
           div(class="content-wrap content-wrap--start")
             div(class="page-header__back")
               a(href="index.html") Назад
             h1(class="page-header__title") Открыть магазин
-          
+
       main(class="page-main page-main--new-shop")
         div(class="content-wrap")
-          
+
           form(class="form" action="#" method="post")
             div(class="form__row-wrap")
               label(class="form__label form__label--new-shop" for="newShopName") Название
@@ -66,19 +66,19 @@ html(lang="ru")
               input(class="form__item form__item--shot" type="text" id="Telegramm" name="Telegramm" placeholder="Telegramm")
             div(class="form__row-wrap")
               label(class="form__label form__label--new-shop" for="newShopSite") Ссылка на сайт
-              input(class="form__item form__item--shot" type="text" id="newShopSite" name="newShopSite")  
+              input(class="form__item form__item--shot" type="text" id="newShopSite" name="newShopSite")
             div(class="form__row-wrap")
               label(class="form__label form__label--new-shop" for="newShopSocial") Соц сети
-              input(class="form__item form__item--shot" type="text" id="newShopSocial" name="newShopSocial" placeholder="Адрес страницы")  
+              input(class="form__item form__item--shot" type="text" id="newShopSocial" name="newShopSocial" placeholder="Адрес страницы")
               div(class="form__add-item")
-            div(class="form__row-wrap form__row-wrap--submit")  
+            div(class="form__row-wrap form__row-wrap--submit")
               a(class="form__cancel") Отмена
               button(class="form__submit btn btn--success" type="submit") Открыть магазин
 
       footer(class="page-footer")
         div(class="content-wrap")
           div(class="row")
-          
+
             nav(class="site-nav")
 
               ul(class="site-nav__list page-footer__list")
@@ -88,11 +88,11 @@ html(lang="ru")
                 li(class="site-nav__item"): a(href="#") Contact us
 
           div(class="row")
-          
+
             nav(class="site-nav")
 
               ul(class="site-nav__list page-footer__list")
-                
+
                 li(class="site-nav__item"): a(href="#") Shops
                 li(class="site-nav__item"): a(href="#") Project blog
                 li(class="site-nav__item"): a(href="./terms-of-use") Help
